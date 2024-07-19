@@ -28,3 +28,21 @@ results = querying.run({"retriever": {"query": "Variable declarations", "top_k":
 
 for d in results["retriever"]["documents"]:
     print(d.meta, d.score)
+
+
+
+
+################
+
+# root@autodl-container-9b614dbe9b-c060355c:~/LLM_RAG_Clanguage/chroma# python3 ChromaQueryTextRetriever_test.py
+# /root/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz: 100%|███████████████████| 79.3M/79.3M [00:09<00:00, 9.14MiB/s]
+# {'title': 'three'} 0.22100931406021118
+# {'title': 'two'} 0.28266316652297974
+# {'title': 'one'} 0.3107161521911621
+
+
+# 在默认情况下，看来ChromaQueryTextRetriever用来计算文档和查询之间的相似度的模型是：all-MiniLM-L6-v2
+
+
+
+

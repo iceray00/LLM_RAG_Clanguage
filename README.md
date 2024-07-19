@@ -1,5 +1,7 @@
 # C Language RAG with LLM and HayStack
 
+
+
 ```bash
 sh ./initisl_rag.sh
 ```
