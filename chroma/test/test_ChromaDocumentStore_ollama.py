@@ -7,8 +7,8 @@ from haystack.components.writers import DocumentWriter
 from haystack_integrations.document_stores.chroma import ChromaDocumentStore
 from haystack_integrations.components.retrievers.chroma import ChromaQueryTextRetriever
 
-# import chromadb.utils.embedding_functions as embedding_functions  #/* new */
-from chromadb.utils import embedding_functions  #/* new */
+# import chromadb.utils.embedding_functions as embedding_functions
+from chromadb.utils import embedding_functions  # /* new */
 
 
 # 创建嵌入函数对象
@@ -21,8 +21,6 @@ from chromadb.utils import embedding_functions  #/* new */
 
 
 def test_ollama():
-
-
     parser = argparse.ArgumentParser(description="Test ChromaDocumentStore with OllamaEmbeddingFunction")
 
     parser.add_argument("--model", type=str, default="nomic-embed-text:latest", help="input single one path of solidity file")
@@ -35,13 +33,17 @@ def test_ollama():
 
     args = parser.parse_args()
 
-
-    # 使用自定义嵌入函数创建 ChromaDocumentStore
-    document_store = ChromaDocumentStore(
-        embedding_function="OllamaEmbeddingFunction",
-        url="http://localhost:11434/api/embeddings",
-        model_name=args.model
-    )
+    if args.model == "default":
+        document_store = ChromaDocumentStore()
+        print("Now, Embedding Model is: all-MiniLM-L6-v2")
+    else:
+        # 使用自定义嵌入函数创建 ChromaDocumentStore
+        document_store = ChromaDocumentStore(
+            embedding_function="OllamaEmbeddingFunction",
+            url="http://localhost:11434/api/embeddings",
+            model_name=args.model
+        )
+        print(f"Now, Embedding Model is: {args.model}")
 
 
     documents = [
@@ -66,27 +68,14 @@ def test_ollama():
         for d in results["retriever"]["documents"]:
             print(d.meta, d.score)
 
-
-    print("\nTop 1 result:")
-    run_query(1)
-    print("\nTop 2 results:")
-    run_query(2)
-    print("Top 3 results:")
-    run_query(3)
-    print("Top 4 results:")
-    run_query(4)
-    print("\nTop 5 result:")
-    run_query(5)
-    print("\nTop 6 results:")
-    run_query(6)
-
-
+    # /* Testing */
+    for i in range(7):  # [1, 7]
+        print(f"\nTop {i+1} results:")
+        run_query(i+1)
 
 
 if __name__ == "__main__":
     test_ollama()
-
-
 
 
 
