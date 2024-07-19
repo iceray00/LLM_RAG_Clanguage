@@ -19,7 +19,7 @@ prompt_builder = PromptBuilder(template=prompt)
 
 llm = HuggingFaceTGIGenerator(model="mistralai/Mixtral-8x7B-Instruct-v0.1", token='YOUR_HF_TOKEN')
 llm.warm_up()
-retriever = ChromaQueryRetriever(document_store=document_store)
+retriever = ChromaQueryRetriever(document_store)
 
 querying = Pipeline()
 querying.add_component("retriever", retriever)
