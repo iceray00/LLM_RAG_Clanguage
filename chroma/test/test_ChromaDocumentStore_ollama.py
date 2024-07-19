@@ -77,5 +77,3 @@ def test_ollama():
 if __name__ == "__main__":
     test_ollama()
 
-
-
