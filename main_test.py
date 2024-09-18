@@ -2,6 +2,7 @@ import os
 import json
 import requests
 from haystack import Pipeline, Document
+from haystack.dataclasses import Document
 from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.components.retrievers.in_memory import InMemoryBM25Retriever
 # from haystack.components.generators import OpenAIGenerator
@@ -12,8 +13,12 @@ from haystack.components.builders.prompt_builder import PromptBuilder
 from haystack_integrations.components.generators.ollama import OllamaGenerator
 
 
-model_name="Qwen1.5-32B-Q4"
-model_url="http://localhost:11434/api/generate"
+model_name = "qwen2:latest"
+
+# 在haystack将OllamaGenerator更新后，现在的执行不需要再调用api/generate了！
+# model_url = "http://localhost:11434/api/generate"
+
+model_url = "http://localhost:11434/"
 
 
 # # Set the environment variable OPENAI_API_KEY
@@ -53,7 +58,7 @@ generator = OllamaGenerator(model=model_name,
                             generation_kwargs={
                               "num_predict": 80,
                               "temperature": 0.9,
-                              "num_ctx": 8192
+                              "num_ctx": 2048
                               })
 
 
