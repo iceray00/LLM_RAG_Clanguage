@@ -47,20 +47,20 @@ Answer:
 """
 
 
-# 创建检索器和自定义生成器
-retriever = InMemoryBM25Retriever(document_store=document_store)
-prompt_builder = PromptBuilder(template=prompt_template)
-# llm = OpenAIGenerator()
-# ollama_generator = OllamaGenerator(model_url="http://localhost:11434/api/generate")
-
 generator = OllamaGenerator(model=model_name,
                             url=model_url,
                             generation_kwargs={
                               "num_predict": 80,
                               "temperature": 0.9,
-                              "num_ctx": 2048
+                              "num_ctx": 4096
                               })
 
+
+# 创建检索器和自定义生成器
+retriever = InMemoryBM25Retriever(document_store=document_store)
+prompt_builder = PromptBuilder(template=prompt_template)
+# llm = OpenAIGenerator()
+# ollama_generator = OllamaGenerator(model_url="http://localhost:11434/api/generate")
 
 # 创建并配置管道
 rag_pipeline = Pipeline()
