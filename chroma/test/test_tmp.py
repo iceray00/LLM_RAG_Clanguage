@@ -4,7 +4,7 @@ from pathlib import Path
 from haystack import Pipeline
 from haystack.components.converters import TextFileToDocument
 from haystack.components.writers import DocumentWriter
-from chroma_haystack import ChromaDocumentStore
+from haystack_integrations.document_stores.chroma import ChromaDocumentStore
 
 # 获取 data 目录下的所有文件路径
 file_paths = ["data" / Path(name) for name in os.listdir("data")]

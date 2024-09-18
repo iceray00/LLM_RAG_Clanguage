@@ -21,6 +21,17 @@ sh ./initisl_rag.sh
 
 
 
+prompt
+
+
+fine-tuning-SFT
+
+Agent
+
+
+RAG
+检索增加生成
+
 
 
 
