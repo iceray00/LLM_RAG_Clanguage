@@ -72,12 +72,12 @@ run_query(6)
 #
 #-----------------
 #
-# That's not correct!
+# That'Open-webui-Pipeline not correct!
 #
 # So, I decide to fix it successfully.
 #
 
 
 
-# Sad, that's the correct one..
+# Sad, that'Open-webui-Pipeline the correct one..
 

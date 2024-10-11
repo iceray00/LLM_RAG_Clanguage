@@ -5,6 +5,9 @@ import argparse
 import os
 import json
 
+from haystack.components.builders import PromptBuilder
+from haystack.components.retrievers import InMemoryBM25Retriever
+from haystack_integrations.components.generators.ollama import OllamaGenerator
 from tqdm import tqdm
 from pathlib import Path
 from haystack import Pipeline
@@ -13,16 +16,14 @@ from haystack import Pipeline
 from haystack.dataclasses import Document
 from haystack.components.writers import DocumentWriter
 from haystack_integrations.document_stores.chroma import ChromaDocumentStore
-from haystack_integrations.components.retrievers.chroma import ChromaQueryTextRetriever
+from haystack_integrations.components.retrievers.chroma import ChromaQueryTextRetriever, ChromaEmbeddingRetriever
 
 # 获取JSON文件的路径
 json_file_path = Path("data") / "Simulated_Test.json"  # 假设JSON文件名是 Simulated_Test.json
 
 
-query = """
-
+question = """
 我想知道，关于C语言学习，对于for循环，有什么适合的练习题目吗？
-
 """
 
 
@@ -30,12 +31,21 @@ query = """
 # Build a RAG pipeline
 # 定义提示模板
 prompt_template = """
-Given these documents, answer the question.
-Documents:
+请你根据给定的`**相关文档**`，回答最后的`**问题**`。
+
+**相关文档**:
 {% for doc in documents %}
     {{ doc.content }}
 {% endfor %}
-Question: {{question}}
+
+对相关文档的一些说明：
+1、会给出5条相关的内容。
+2、相关文档并不一定是最符合、贴切问题，而是一些确切的、准确的相关知识点。
+3、相关文档的
+
+**问题**: 
+{{question}}
+
 Answer:
 """
 
@@ -48,10 +58,14 @@ except FileNotFoundError:
     exit(1)
 
 
-def test_RAG():
+def test_RAG(question):
+
+    top_k = 5
+
     parser = argparse.ArgumentParser(description="Test ChromaDocumentStore with OllamaEmbeddingFunction")
 
-    parser.add_argument("--model", type=str, default="nomic-embed-text:latest", help="input single one path of solidity file")
+    parser.add_argument("--Emodel", type=str, default="nomic-embed-text:latest", help="Embedding Model")
+    parser.add_argument("--Gmodel", type=str, default="qwen2:latest", help="Generator Model")
     # parser.add_argument("--input_file", type=str, help="input one file path for Contract source code")
     # parser.add_argument("--o", "-output", type=str, default="./vfcs/", help="output path for VFCS")
     # parser.add_argument("--model_name", type=str, default="Qwen1.5-32B-Q4", help="model name")
@@ -61,7 +75,8 @@ def test_RAG():
 
     args = parser.parse_args()
 
-    if args.model == "default":
+    # Embedding Model
+    if args.Emodel == "default":
         document_store = ChromaDocumentStore()
         print("Now, Embedding Model is: all-MiniLM-L6-v2")
     else:
@@ -69,9 +84,11 @@ def test_RAG():
         document_store = ChromaDocumentStore(
             embedding_function="OllamaEmbeddingFunction",
             url="http://localhost:11434/api/embeddings",
-            model_name=args.model
+            model_name=args.Emodel
         )
-        print(f"Now, Embedding Model is: {args.model}")
+        print(f"### Embedding Model is: {args.Emodel} ###")
+
+    print(f"### Generator Model is: {args.Gmodel} ###")
 
     # 生成Haystack的文档格式
     documents = []
@@ -81,7 +98,7 @@ def test_RAG():
             content=item["title"],  # 将JSON中的'title'字段作为文档内容
             # 可选择的给出展示
             meta={
-                "id": item["id"],
+                # "id": item["id"],
                 "问题/内容": item["title"],
                 "答案/内容": item["content"],
                 "部分": item["part"]["section"],
@@ -91,6 +108,14 @@ def test_RAG():
             }
         )
         documents.append(doc)
+
+    generator = OllamaGenerator(model=args.Gmodel,
+                                url="http://localhost:11434/",
+                                generation_kwargs={
+                                    # "num_predict": 60,
+                                    "temperature": 0.8,
+                                    "num_ctx": 4096
+                                })
 
     # # 不显示进度条
     # document_store.write_documents(documents)  # 将这些文档写入到 ChromaDocumentStore
@@ -102,38 +127,38 @@ def test_RAG():
     # 输出提示
     print(f"Successfully indexed {len(documents)} documents to ChromaDocumentStore.")
 
+    rag_pipeline = Pipeline()
+    retriever = ChromaQueryTextRetriever(document_store=document_store)
+    prompt_builder = PromptBuilder(template=prompt_template)
+    rag_pipeline.add_component("retriever", retriever)
 
-    # 创建一个 Pipeline 实例用于文档索引
-    indexing = Pipeline()
-    indexing.add_component("writer", DocumentWriter(document_store))
-    indexing.run({"writer": {"documents": documents}})
+    querying = rag_pipeline.run({"retriever": {"query": question, "top_k": top_k}})
+    print(f"\n## Retriever Answer: (top_k = {top_k})##\n")
+    for d in querying["retriever"]["documents"]:
+        # print(prompt_template.format(documents=d.content, question=query))
+        print(d.meta, d.score)
 
+    rag_pipeline.add_component("prompt_builder", prompt_builder)
+    rag_pipeline.add_component("llm", generator)
+    rag_pipeline.connect("retriever", "prompt_builder.documents")
+    rag_pipeline.connect("prompt_builder", "llm")
 
+    results = rag_pipeline.run(
+        {
+            "retriever": {"query": question, "top_k": top_k},
+            "prompt_builder": {"question": question},
+        }
+    )
 
-    # 创建一个 Pipeline 实例用于文档检索
-    querying = Pipeline()
-    querying.add_component("retriever", ChromaQueryTextRetriever(document_store=document_store))
+    print("\n\n## RAG Answer: ##\n")
+    print(results["llm"]["replies"])
 
-    def run_query(top_k):
-        results = querying.run({"retriever": {"query": query, "top_k": top_k}})
-        for d in results["retriever"]["documents"]:
-            # print(prompt_template.format(documents=d.content, question=query))
-            print(d.meta, d.score)
-
-    # /* Testing */
-    for i in range(7):  # [1, 7]
-        print(f"\nTop {i+1} results:")
-        run_query(i+1)
+    return results["llm"]["replies"]
 
 
 
 if __name__ == "__main__":
-    test_RAG()
-
-
-
-
-
+    test_RAG(question)
 
 
 

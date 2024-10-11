@@ -81,4 +81,13 @@ results = rag_pipeline.run(
     }
 )
 
-print(results["llm"]["replies"])
+# Properly access the results
+if 'documents' in results:
+    print("Retriever Answer:")
+    for d in results["retriever"]["documents"]:
+        # print(prompt_template.format(documents=d.content, question=query))
+        print(d.meta, d.score)
+
+if 'llm' in results:
+    print("## RAG Answer: ##\n", results['llm']['replies'])
+

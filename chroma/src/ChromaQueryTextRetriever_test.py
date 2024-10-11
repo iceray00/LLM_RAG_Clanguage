@@ -30,13 +30,13 @@ for d in results["retriever"]["documents"]:
     print(d.meta, d.score)
 
 
-# In here, Chroma's documentation library is created using the default ChromaDocumentStore().
+# In here, Chroma'Open-webui-Pipeline documentation library is created using the default ChromaDocumentStore().
 # With no additional configuration
 
 ################
 # EXEC:
 # root@autodl-container-9b614dbe9b-c060355c:~/LLM_RAG_Clanguage/chroma# python3 ChromaQueryTextRetriever_test.py
-# /root/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz: 100%|███████████████████| 79.3M/79.3M [00:09<00:00, 9.14MiB/s]
+# /root/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz: 100%|███████████████████| 79.3M/79.3M [00:09<00:00, 9.14MiB/Open-webui-Pipeline]
 # {'title': 'three'} 0.22100931406021118
 # {'title': 'two'} 0.28266316652297974
 # {'title': 'one'} 0.3107161521911621
