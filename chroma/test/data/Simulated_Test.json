@@ -1,0 +1,1691 @@
+[
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10001",
+        "title": "```c\nint a=1,b=2,c=3;\nif(a>c) b=a;a=c;c=b;```则`c`的值为（）。\nA:1\nB:2\nC:3\nD:不一定",
+        "content": "B",
+        "tags": [
+            "条件语句",
+            "变量赋值"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10002",
+        "title": "执行下列语句后的输出为（）。```c\nint j=-1;\nif(j<=1) printf(\" ****\\n\");\nelse     printf(\" %%%%%\\n\");```\nA:****\nB:%%%%\nC:%%%%c\nD:有错，执行不正确",
+        "content": "A",
+        "tags": [
+            "条件语句",
+            "输出函数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10003",
+        "title": "设有说明语句:`char a='\\72'`;则变量`a`（）。\nA:包含1个字符\nB:包含2个字符\nC:包含3个字符\nD:说明不合法",
+        "content": "A",
+        "tags": [
+            "字符常量",
+            "转义字符"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10004",
+        "title": "若定义:`int a=511,*b=&a;`, 则`printf(\" %d\\n\" ,*b);`的输出结果为（）。\nA:无确定值\nB:a的地址\nC:512\nD:511",
+        "content": "D",
+        "tags": [
+            "指针变量",
+            "变量赋值",
+            "输出函数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10005",
+        "title": "`int a[10];`\n给数组`a`的所有元素分别赋值为1、2、3、……的语句是（）。\nA:`for(i=1;i<11;i++) a[i]=i;`\nB:`for(i=1;i<11;i++) a[i-1]=i;`\nC:`for(i=1;i<11;i++) a[i+1]=i;`\n`D:for(i=1;i<11;i++) a[0]=1;`",
+        "content": "B",
+        "tags": [
+            "数组",
+            "循环语句"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10006",
+        "title": "对于基本类型相同的两个指针变量之间，不能进行的运算是（）。\nA:`<`\nB:`=`\nC:`+`\nD:`-`",
+        "content": "C",
+        "tags": [
+            "指针运算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10007",
+        "title": "若有定义:`int aa[8];`则以下表达式中不能代表数组元素`aa[1]`的地址的是（）。\nA:`&aa[0]+1`\nB:`&aa[1]`\nC:`&aa[0]++`\nD:`aa+1`",
+        "content": "C",
+        "tags": [
+            "数组",
+            "地址运算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10008",
+        "title": "下列变量说明语句中，正确的是（）。\nA:`char:a b c;`\nB:`char a;b;c;`\nC:`int x;z;`\nD:`int x,z;`",
+        "content": "D",
+        "tags": [
+            "变量声明"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10009",
+        "title": "若有说明`int a[3][4];`，则`a`数组元素的非法引用是（）。\nA:`a[0][2*1]`\nB:`a[1][3]`\nC:`a[4-2][0]`\nD:`a[0][4]`",
+        "content": "D",
+        "tags": [
+            "二维数组",
+            "数组索引"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10010",
+        "title": "设`a`、`b`、`c`、`d`、`m`、`n`均为int型变量，且`a=5`、`b=6`、`c=7`、`d=8`、`m=2`、`n=2`，\n则逻辑表达式`(m=a>b)&&(n=c>d)`运算后，`n`的值为______。\nA:`0`\nB:`1`\nC:`2`\nD:`3`",
+        "content": "A",
+        "tags": [
+            "逻辑表达式",
+            "赋值表达式"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10011",
+        "title": "以下不是无限循环的语句为（）。\nA:`for(y=0,x=1;x>++y;x=i++) i=x;`\nB:`for(;;x++=i);`\nC:`while(1){x++;}`\nD:`for(i=10;;i--) sum+=i;`",
+        "content": "A",
+        "tags": [
+            "循环语句"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10012",
+        "title": "具有相同类型的指针变量`p`与数组`a`，不能进行的操作是（）。\nA:`p=a;`\nB:`*p=a[0];`\nC:`p=&a[0];`\nD:`p=&a;`",
+        "content": "D",
+        "tags": [
+            "指针",
+            "数组",
+            "操作限制"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10013",
+        "title": "设有数组定义: `char array[] = \" China\";` 则数组`array`所占的空间为（）。\nA: 4个字节\nB: 5个字节\nC: 6个字节\nD: 7个字节",
+        "content": "C",
+        "tags": [
+            "数组定义",
+            "字符数组",
+            "内存占用"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10014",
+        "title": "以下符合C语言语法的赋值表达式是（）。\nA:`d=9+e+f=d+9`\nB:`d=9+e,f=d+9`\nC: `d=9+e,e++,d+9`\nD: `d=9+e++=d+7`",
+        "content": "B",
+        "tags": [
+            "赋值表达式"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10015",
+        "title": "```c\nstruct student\n{\n  int age;\n  int num;\n} std, *p;\np = &std;\n```则以下对结构体变量`std`中成员变量`age`的引用方式不正确的是？（ ）\nA: `std.age`\nB: `p->age`\nC: `(*p).age`\nD: `*p.age`",
+        "content": "D",
+        "tags": [
+            "结构体",
+            "指针",
+            "成员访问"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10016",
+        "title": "在C语言中，要求运算数必须是整型的运算符是（）。\nA:`^`\nB:`%`\nC:`!`\nD:`>`",
+        "content": "B",
+        "tags": [
+            "运算符",
+            "整型运算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10017",
+        "title": "C语言中`while`和`do—while`循环的主要区别是\nA:`While`的循环控制条件比`do—while`的循环控制条件严格\nB:`do—while`的循环体至少无条件执行一次\nC:`do—while`允许从外部转到循环体内\nD:`do—while`循环体不能是复合语句",
+        "content": "B",
+        "tags": [
+            "循环控制",
+            "while循环",
+            "do-while循环"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10018",
+        "title": "以下不正确的if语句形式是（）。\nA:`if(x>y&&x!=y);`\nB:`if(x==y) x+=y;`\nC:`if(x!=y) scanf(\" %d\" ,&x) else scanf(\" %d\" ,&y);`\nD:`if(x<y) {x++;y++;}`",
+        "content": "C",
+        "tags": [
+            "条件语句",
+            "if语句格式"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10019",
+        "title": "已知`x=43`，`ch='A'`，`y=0;`则表达式`(x>=y&&ch<'B'&&!y)`的值是（）。\nA:`0`\nB:语法错\nC:`1`\nD:`\" 假\"`",
+        "content": "C",
+        "tags": [
+            "逻辑表达式",
+            "条件判断"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10020",
+        "title": "以下程序段的输出结果为（）。```c\nchar c[]=\" abc\" ;\nint  i=0;\nwhile(c[i++]!='\\0');printf(\" %d\" ,i-1);```\nA:abc\nB:ab\nC:2\nD:3",
+        "content": "D",
+        "tags": [
+            "字符串处理",
+            "循环控制",
+            "数组索引"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10021",
+        "title": "若给定条件表达式`(M)?(a++):(a--)`，则其中表达式`M`（）。\nA:和`(M==0)`等价\nB:和`(M==1)`等价\nC:和`(M!=0)`等价\nD:和`(M!=1)`等价",
+        "content": "C",
+        "tags": [
+            "条件运算符",
+            "逻辑表达式"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10022",
+        "title": "对以下说明语句`int a[10]={6,7,8,9,10};`的正确理解是（）。\nA:将5个初值依次赋给`a[1]`至`a[5]`\nB:将5个初值依次赋给`a[0]`至`a[4]`\nC:将5个初值依次赋给`a[6]`至`a[10]`\nD:因为数组长度与初值的个数不相同，所以此语句不正确",
+        "content": "B",
+        "tags": [
+            "数组初始化",
+            "数组"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10023",
+        "title": "设`a=12`，且`a`定义为整型变量。执行语句`a+=a-=a*=a;`后`a`的值为（）。\nA:`12`\nB:`144`\nC:`0`\nD:`132`",
+        "content": "C",
+        "tags": [
+            "运算符优先级",
+            "表达式"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10024",
+        "title": "假设所有变量均为整型，则表达式`(a=2,b=5,b++,a+b)`的值是（）。\nA:`7`\nB:`8`\nC:`6`\nD:`2`",
+        "content": "B",
+        "tags": [
+            "逗号运算符",
+            "表达式求值"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10025",
+        "title": "若以`\"a+\"`方式打开一个已存在的文件，则以下叙述正确的是（）。\nA:文件打开时，原有文件内容不被删除，位置指针移到文件末尾，可作添加和读操作\nB:文件打开时，原有文件内容不被删除，位置指针移到文件开头，可作重写和读操作\nC:文件打开时，原有文件内容被删除，只可作写操作\nD:以上各种说法皆不正确",
+        "content": "A",
+        "tags": [
+            "文件操作"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10026",
+        "title": "若二维数组`a`有m列,则在`a[i][j]`前的元素个数为（）。\nA:`j*m+i`\nB:`i*m+j`\nC:`i*m+j-1`\nD:`i*m+j+1`",
+        "content": "B",
+        "tags": [
+            "数组"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10027",
+        "title": "下面有关for循环的正确描述是（）。\nA:for循环只能用于循环次数已经确定的情况\nB:for循环是先执行循环循环体语句，后判断表达式\nC:在 for 循环中，不能用break语句跳出循环体\nD:for循环的循环体语句中，可以包含多条语句，但必须用花括号括起来",
+        "content": "D",
+        "tags": [
+            "循环控制"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10028",
+        "title": "数组名作为实参数传递给函数时，数组名被处理为（）。\nA:该数组的长度\nB:该数组的元素个数\nC:该数组的首地址\nD:该数组中各元素的值",
+        "content": "C",
+        "tags": [
+            "函数调用",
+            "指针"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10029",
+        "title": "若有`int i=3,*p;p=&i;`，下列语句中输出结果为`3`的是（）。\nA:`printf(\" %d\" ,&p);`\nB:`printf(\" %d\" ,*i);`\nC:`printf(\" %d\" ,*p);`\nD:`printf(\" %d\" ,p);`",
+        "content": "C",
+        "tags": [
+            "指针",
+            "输出函数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10030",
+        "title": "在C语言中，if语句后的一对圆括号中，用以决定分支的流程的表达式（）。\nA:只能用逻辑表达式\nB:只能用关系表达式\nC:只能用逻辑表达式或关系表达式\nD:可用任意表达式",
+        "content": "D",
+        "tags": [
+            "条件语句"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10031",
+        "title": "若k为`int`型变量，则以下程序段的执行结果是（）。```c\nk=-8567;  printf(\" |%06D|\\n\" ,k);\n```A:格式描述符不合法，输出无定值\nB:输出为`|%06D|`\nC:输出为`|0-8567|`\nD:输出为`|-8567|`",
+        "content": "B",
+        "tags": [
+            "输出函数",
+            "格式化字符串"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10032",
+        "title": "C语言规定，在一个源程序中，`main`函数的位置（）。\nA:必须在最开始\nB:必须在系统调用的库函数的后面\nC:可以任意\nD:必须在最后",
+        "content": "C",
+        "tags": [
+            "函数定义"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10033",
+        "title": "下列程序段的输出结果为（）。```c\nfloat x=213.82631;\nprintf(\" %3d\" ,(int)x);\n```A:213.82\nB:213.83\nC:213\nD:3.8",
+        "content": "C",
+        "tags": [
+            "类型转换",
+            "输出函数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10034",
+        "title": "执行下列语句后，`a`和`b`的值分别为（）。```c\nint a,b; \na=1+'a'; \nb=2+7%-4-'A';\n```A:-63,-64\nB:98,-60\nC:1,-60\nD:79,78",
+        "content": "B",
+        "tags": [
+            "算术运算",
+            "类型转换"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10035",
+        "title": "C程序中的宏展开是在（）。\nA:编译时进行的\nB:程序执行时进行的\nC:编译前预处理时进行的\nD:编辑时进行的",
+        "content": "C",
+        "tags": [
+            "预处理器"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10036",
+        "title": "C语言中`while`和`do-while`循环的主要区别是（）。\nA:`do-while`的循环体至少无条件执行一次\nB:`while`的循环控制条件比`do-while`的循环控制条件更严格\nC:`do-while`允许从外部转到循环体内\nD:`do-while`的循环体不能是复合语句",
+        "content": "A",
+        "tags": [
+            "循环控制"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10037",
+        "title": "以下对枚举类型名的定义中正确的是（）。\nA:enum a={sum,mon,tue};\nB:enum a {sum=9,mon=-1,tue};\nC:enum a{\" sum\" ,\" mon\" ,\" tue\" };\nD:enum a {\" sum\" ,\" mon\" ,\" tue\" };\n\n答案：B",
+        "content": "B",
+        "tags": [
+            "枚举类型"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10038",
+        "title": "若有定义：char  *p1,*p2,*p3,*p4,ch;\n则不能正确赋值的程序语句为（）。\nA:p1=&ch; scanf(\" %c\" ,p1);\nB:p2=(char *)malloc(1);scanf(\" %c\" ,p2);\nC:*p3=getchar();\nD:p4=&ch;*p4=getchar();\n\n答案：C",
+        "content": "C",
+        "tags": [
+            "指针",
+            "输入函数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10039",
+        "title": "以下数值中，不正确的八进制数或十六进制数是（）。\nA:0x16\nB:16\nC:-16\nD:0xaaaa\n\n答案：C",
+        "content": "C",
+        "tags": [
+            "数值表示"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10040",
+        "title": "在调用函数时，如果实参是简单变量，它与对应形参之间的数据传递方式是（）。\nA:地址传递\nB:单向值传递\nC:由实参传给形参，再由形参传回实参\nD:传递方式由用户指定\n\n答案：B",
+        "content": "B",
+        "tags": [
+            "函数调用",
+            "参数传递"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10041",
+        "title": "以下对枚举类型名的定义中正确的是（）。\nA:`enum a={sum,mon,tue};`\nB:`enum a {sum=9,mon=-1,tue};`\nC:`enum a{\" sum\" ,\" mon\" ,\" tue\" };`\nD:`enum a {\" sum\" ,\" mon\" ,\" tue\" };`",
+        "content": "B",
+        "tags": [
+            "枚举类型"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10042",
+        "title": "若有定义：`char *p1,*p2,*p3,*p4,ch;`，则不能正确赋值的程序语句为（）。\nA:`p1=&ch; scanf(\" %c\" ,p1);`\nB:`p2=(char *)malloc(1);scanf(\" %c\" ,p2);`\nC:`*p3=getchar();`\nD:`p4=&ch;*p4=getchar();`",
+        "content": "C",
+        "tags": [
+            "指针",
+            "输入函数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10043",
+        "title": "以下数值中，不正确的八进制数或十六进制数是（）。\nA:`0x16`\nB:`16`\nC:`-16`\nD:`0xaaaa`",
+        "content": "C",
+        "tags": [
+            "数值表示"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10044",
+        "title": "在调用函数时，如果实参是简单变量，它与对应形参之间的数据传递方式是（）。\nA:地址传递\nB:单向值传递\nC:由实参传给形参，再由形参传回实参\nD:传递方式由用户指定",
+        "content": "B",
+        "tags": [
+            "函数调用",
+            "参数传递"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10045",
+        "title": "```c\n/*------------------------------------------------------\n【程序改错】\n--------------------------------------------------------\n功能：将`s`所指字符串中的字母转换为按字母序列的后续字母（但\n      Z转换为A, z转换为a），其它字符不变。\n------------------------------------------------------*/\n#include <stdio.h>\n#include <ctype.h>\n#include <conio.h>\nvoid fun (char *s)\n{\n  /***********FOUND***********/\n  while(*s!=\\\" \\0\\\" )\n  {\n    if(*s>=\\'A\\' && *s <= \\'Z\\' || *s >= \\'a\\' && *s<=\\'z\\')\n    {\n      if(*s==\\'Z\\')\n        *s=\\'A\\';\n      else if(*s==\\'z\\')\n        *s=\\'a\\';\n      else\n        /***********FOUND***********/\n        s += 1;\n    }\n    /***********FOUND***********/\n    s++\n  }\n}\nmain()\n{\n  char s[80];\n  printf(\\\" \\n Enter a string with length < 80. :\\n\\n \\\" );\n  gets(s);\n  printf(\\\" \\n The string : \\n\\n \\\" );\n  puts(s);\n  fun ( s );\n  printf (\\\" \\n\\n The Cords :\\n\\n \\\" );\n  puts(s);\n}\n```",
+        "content": "=======(答案1)=======```c\nwhile(*s!=\\'\\0\\')\n```=======(答案2)=======```c\n*s += 1;\n```=======(答案3)=======```c\ns++\n```",
+        "tags": [
+            "字符串处理",
+            "字符操作"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10046",
+        "title": "```c\n/*------------------------------------------------------\n【程序改错】\n--------------------------------------------------------\n功能：求100以内（包括100）的偶数之和。\n------------------------------------------------------*/\n#include <stdio.h>\nint main()\n{\n  /**********FOUND**********/\n  int i,sum=1;\n  /**********FOUND**********/\n  for(i=2;i<=100;i+=1)\n    sum+=i;\n  /**********FOUND**********/\n  printf(\\\" Sum=%d \\n\\\" ;sum);\n  getchar();\n  return 0;\n}\n```",
+        "content": "=======(答案1)=======```c\nint i,sum=0;\n```=======(答案2)=======```c\nfor(i=2;i<=100;i+=2)\n```=======(答案3)=======```c\nprintf(\\\" Sum=%d \\n\\\" ,sum);\n```",
+        "tags": [
+            "循环",
+            "数学计算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10047",
+        "title": "```c\n/*------------------------------------------------------\n【程序改错】\n--------------------------------------------------------\n功能：分别统计输入的字符串中各元音字母（即：A、E、i、O、U）\n      的个数。\n注意：字母不分大、小写。\n例如：若输入：THis is a boot，则输出应该是：1、0、2、2、0。\n------------------------------------------------------*/\n#include <conio.h>\n#include <stdio.h>\nfun ( char *s, int num[5] )\n{\n  int k, i=5;\n  for ( k = 0; k<i; k++ )\n    /**********FOUND**********/\n    num[i]=0;\n  for (; *s; s++)\n  {\n    i = -1;\n    /**********FOUND**********/\n    switch ( s )\n    {\n      case 'a':\n      case 'A':\n               {\n                 i=0;\n                 break;\n               }\n      case 'e':\n      case 'E':\n                {\n                  i=1;\n                  break;\n                }\n      case 'i':\n      case 'I':\n                {\n                  i=2;\n                  break;\n                }\n      case 'o':\n      case 'O':\n                {\n                  i=3;\n                  break;\n                }\n      case 'u':\n      case 'U':\n                {\n                  i=4;\n                  break;\n                }\n    }\n    /**********FOUND**********/\n    if (i < 0)\n      num[i]++;\n  }\n}\nmain( )\n{\n  char s1[81]; int num1[5], i;\n  printf( \\\" \\nPlease enter a string: \\\"  ); gets( s1 );\n  fun ( s1, num1 );\n  for ( i=0; i < 5; i++ )\n    printf (\\\" %d \\\" ,num1[i]);\n  printf (\\\" \\n\\\" );\n}\n```",
+        "content": "=======(答案1)=======```c\nnum[k]=0;\n```=======(答案2)=======```c\nswitch(*s)\n```=======(答案3)=======```c\nif (i >= 0)\n```",
+        "tags": [
+            "字符串处理",
+            "条件语句"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10048",
+        "title": "```c\n/*------------------------------------------------------\n【程序改错】\n--------------------------------------------------------\n功能：编写函数求2!+4!+6!+8!+10!+12!+14!。\n------------------------------------------------------*/\n#include <stdio.h>\nlong  sum(int n)\n{\n  /**********FOUND**********/\n  int i,j;\n  long   t,s=0;\n  /**********FOUND**********/\n  for(i=2;i<=n;i++)\n  {\n    t=1;\n    for(j=1;j<=i;j++)\n      t=t*j;\n    s=s+t;\n  }\n  /**********FOUND**********/\n  return(t);\n}\nmain()\n{\n  printf(\\\" this sum=%ld\\n\\\" ,sum(14));\n}\n```",
+        "content": "=======(答案1)=======```c\nint i,j;\n```=======(答案2)=======```c\nfor(i=2;i<=n;i=i+2)\n```=========或=========```c\nfor(i=2;i<=n;i+=2)\n```=========或=========```c\nfor(i=2;i<=n;i++,i++)\n```=======(答案3)=======```c\nreturn(s);\n```",
+        "tags": [
+            "循环",
+            "数学计算",
+            "函数定义"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10049",
+        "title": "```c\n/*------------------------------------------------------\n【程序改错】\n--------------------------------------------------------\n功能：将6个数按输入时顺序的逆序进行排列.\n------------------------------------------------------*/\n#include <stdio.h>\nsort(char *p,int m)\n{\n  int i;\n  char change,*p1,*p2;\n  for(i=0;i<m/2;i++)\n  {\n    /***********FOUND***********/\n    *p1=p+i; *p2=p+(m-1-i);\n    change=*p1;\n    *p1=*p2;\n    *p2=change;\n  }\n}\nmain( )\n{\n  int i;\n  /***********FOUND***********/\n  char  p,num[6];\n  for(i=0;i<=5;i++)\n    /***********FOUND***********/\n    scanf(\" %d\" ,num[i]);\n  p=&num[0];\n  /***********FOUND***********/\n  sort(*p,6);\n  for(i=0;i<=5;i++)\n    printf(\" %d\" ,num[i]);\n}\n```",
+        "content": "=======(答案1)=======```c\np1=p+i; p2=p+(m-1-i);\n```=======(答案2)=======```c\nchar  *p,num[6];\n```=======(答案3)=======```c\nscanf(\" %d\" ,&num[i]);\n```=======(答案4)=======```c\nsort(p,6);\n```\n",
+        "tags": [
+            "数组",
+            "排序"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10050",
+        "title": "```c\n/*------------------------------------------------------\n【程序改错】\n--------------------------------------------------------\n功能：利用条件运算符的嵌套来完成此题：学习成绩>=90分的同学用A表示，60-89分之间的用B表示，60分以下的用C表示。\n------------------------------------------------------*/\n#include <stdio.h>\nmain()\n{\n  int score;\n  /**********FOUND**********/\n  char *grade;\n  printf(\" please input a score\\n\" );\n  /**********FOUND**********/\n  scanf(\" %d\" ,score);\n  /**********FOUND**********/\n  grade=score>=90?'A';(score>=60?'B':'C');\n  printf(\" %d belongs to %c\" ,score,grade);\n}\n```",
+        "content": "=======(答案1)=======```c\nchar grade;\n```=======(答案2)=======```c\nscanf(\" %d\" ,&score);\n```=======(答案3)=======```c\ngrade=score>=90?'A':(score>=60?'B':'C');\n```",
+        "tags": [
+            "条件运算符",
+            "成绩分类"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10051",
+        "title": "```c\n/*------------------------------------------------------\n【程序改错】\n--------------------------------------------------------\n功能：编写一个程序模拟袖珍计算器的加、减、乘、除四则运算。\n例如：输入3+5＝或5－2＝或3*4＝或4/2＝，求表达式结果。\n------------------------------------------------------*/\n#include<stdio.h>\nint main()\n{\n  float x,y;\n  char operate1;\n  printf(\" Arithmetic expression\\n\" );\n  /**********FOUND**********/\n  scanf(\" %f\" ,&x);\n  /**********FOUND**********/\n  while((operate1==getchar())!='=')\n  {\n    printf(\" result=\" );\n    scanf(\" %f\" ,&y);\n    /**********FOUND**********/\n    switch(y)\n    {\n      case '+':\n               x+=y;\n               break;\n      case '-':\n               x-=y;\n               break;\n      case '*':\n               x*=y;\n               break;\n      case '/':\n               x/=y;\n               break;\n    }\n  }\n  printf(\" %f\" ,x);\n  getchar();\n  return 0;\n}\n```",
+        "content": "=======(答案1)=======```c\nscanf(\" %f\" ,&x);\n```=======(答案2)=======```c\nwhile((operate1=getchar())!='=')\n```=======(答案3)=======```c\nswitch(operate1)\n```",
+        "tags": [
+            "计算器",
+            "四则运算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10052",
+        "title": "```c\n/*------------------------------------------------------\n【程序改错】\n--------------------------------------------------------\n功能：写一个函数，求一个字符串的长度，在main函数中输入字符串，并输出其长度。\n------------------------------------------------------*/\n#include <stdio.h>\n#include <conio.h>\nint length(p)\nchar *p;\n{\n  int n;\n  n=0;\n  /**********FOUND**********/\n  while(*p=='\\0')\n  {\n    n++;\n    p++;\n  }\n  return n;\n}\nint main()\n{\n  int len;\n  /**********FOUND**********/\n  char *str[20];\n  printf(\" please input a string:\\n\" );\n  scanf(\" %s\" ,str);\n  /**********FOUND**********/\n  len==length(str);\n  printf(\" the string has %d characters.\" ,len);\n  getchar();\n  return 0;\n}\n```",
+        "content": "=======(答案1)=======```c\nwhile(*p!='\\0')\n```=========或=========```c\nwhile(*p)\n```=========或=========```c\nwhile(*p!=0)\n```=========或=========```c\nwhile(*p!=NULL)\n```=======(答案2)=======```c\nchar str[20];\n```=======(答案3)=======```c\nlen=length(str);\n```",
+        "tags": [
+            "字符串长度",
+            "函数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10053",
+        "title": "```c\n/*------------------------------------------------------\n【程序改错】\n--------------------------------------------------------\n功能：将6个数按输入时顺序的逆序进行排列。\n------------------------------------------------------*/\n#include <stdio.h>\nsort(char *p,int m)\n{\n  int i;\n  char change,*p1,*p2;\n  for(i=0;i<m/2;i++)\n  {\n    /***********FOUND***********/\n    *p1=p+i; *p2=p+(m-1-i);\n    change=*p1;\n    *p1=*p2;\n    *p2=change;\n  }\n}\nmain( )\n{\n  int i;\n  /***********FOUND***********/\n  char  *p,num[6];\n  for(i=0;i<=5;i++)\n    /***********FOUND***********/\n    scanf(\" %d\", &num[i]);\n  p=&num[0];\n  /***********FOUND***********/\n  sort(p,6);\n  for(i=0;i<=5;i++)\n    printf(\" %d\", num[i]);\n}\n```",
+        "content": "=======(答案1)=======```c\np1=p+i; p2=p+(m-1-i);\n```=======(答案2)=======```c\nchar  *p,num[6];\n```=======(答案3)=======```c\nscanf(\" %d\", &num[i]);\n```\n=======(答案4)=======\n```c\nsort(p,6);\n```",
+        "tags": [
+            "数组",
+            "排序"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10054",
+        "title": "```c\n/*------------------------------------------------------\n【程序改错】\n--------------------------------------------------------\n功能：输入10个数,要求输出这10个数的平均值。\n------------------------------------------------------*/\n#include <stdio.h>\ndouble average(double array[10])\n{\n  int i;\n  double aver,sum=array[0];\n  /***********FOUND***********/\n  for(i=1;i<10;i++)\n    sum=sum+array[i];\n  aver=sum/10.0;\n  return(aver);\n}\nmain( )\n{\n  /***********FOUND***********/\n  double score[10],aver;\n  int i;\n  printf(\" input 10 scores:\\n\");\n  for(i=0;i<10;i++)\n    /***********FOUND***********/\n    scanf(\" %f\", &score[i]);\n  printf(\" \\n\");\n  /***********FOUND***********/\n  aver=average(score);\n  printf(\" average score is %5.2f\", aver);\n}\n```",
+        "content": "=======(答案1)=======```c\nfor(i=1;i<10;i++)\n```=========或=========```c\nfor(i=1;i<=9;i++)\n```=======(答案2)=======```c\ndouble score[10],aver;\n```=========或=========```c\ndouble aver,score[10];\n```=======(答案3)=======```c\nscanf(\" %f\", &score[i]);\n```=========或=========```c\nscanf(\" %f\", score+i);\n```=======(答案4)=======```c\naver=average(score);\n```",
+        "tags": [
+            "数组",
+            "数学计算",
+            "平均值"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "填空题"
+        },
+        "id": "10055",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：输入一个学生的生日（年：y0、月：m0、日：d0），并输\n      入当前日期（年：y1、月：m1、日：d1）。求出该学生\n      的年龄（实足年龄）。\n-------------------------------------------------------*/\n#include <stdio.h>\nmain()\n{\n  int age,y0,y1,m0,m1,d0,d1;\n  printf(\" 输入生日日期（年,月,日）\" );\n  /***********SPACE***********/\n  【?】(\" %d,%d,%d\" ,&y0,&m0,&d0);\n  printf(\" 输入当前日期（年,月,日)\" );\n  scanf(\" %d,%d,%d\" ,&y1,&m1,&d1);\n  age=y1-y0;\n  /***********SPACE***********/\n  if(m0【?】m1)age--;\n  /***********SPACE***********/\n  if((m0【?】m1)&&(d0>d1))age--;\n  printf(\" age=%3d\" ,age);\n}\n```",
+        "content": "=======(答案1)=======```c\nscanf\n```=======(答案2)=======```c\n>\n```=======(答案3)=======```c\n==\n```",
+        "tags": [
+            "日期处理",
+            "年龄计算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "填空题"
+        },
+        "id": "10056",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：数组名作为函数参数，求平均成绩。\n-------------------------------------------------------*/\n#include  <stdio.h>\nfloat aver(float a[ ])             /*定义求平均值函数，形参为一浮点型数组名*/\n{\n  int i;\n  float av,s=a[0];\n  for(i=1;i<5;i++)\n  /***********SPACE***********/\n  s+=【?】[i];\n  av=s/5;\n  /***********SPACE***********/\n  return 【?】;\n}\nmain()\n{\n  float sco[5],av;\n  int i;\n  printf(\" \\ninput 5 scores:\\n\" );\n  for(i=0;i<5;i++)\n  /***********SPACE***********/\n    scanf(\" %f\" ,【?】);\n  /***********SPACE***********/\n  av=aver(【?】);\n  printf(\" average score is %5.2f\\n\" ,av);\n}\n```",
+        "content": "=======(答案1)=======```c\na\n```=======(答案2)=======```c\nav\n```=======(答案3)=======```c\n&sco[i]\n```=======(答案4)=======```c\nsco\n```",
+        "tags": [
+            "数组处理",
+            "函数应用",
+            "平均值计算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "填空题"
+        },
+        "id": "10057",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：输出九九乘法口诀表。\n-------------------------------------------------------*/\n#include  <stdio.h>\nmain()\n{\n  int i,j,result;\n  printf(\" \\n\" );\n  /***********SPACE***********/\n  for (i=1;【?】;i++)\n  {\n    /***********SPACE***********/\n    for(j=1;j<=i;【?】)\n    {\n      result=i*j;\n      /***********SPACE***********/\n      printf(\" %d*%d=%-3d\" ,i,j,【?】);\n    }\n  printf(\" \\n\" );\n  }\n}\n```",
+        "content": "=======(答案1)=======```c\ni<10\n```=======(答案2)=======```c\nj++\n```=======(答案3)=======```c\nresult\n```",
+        "tags": [
+            "循环控制",
+            "数学运算",
+            "字符串格式化"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "填空题"
+        },
+        "id": "10058",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：删除字符串中的数字字符。\n例如：输入字符串：48CTYP9E6，则输出：CTYPE。\n-------------------------------------------------------*/\n#include <stdio.h>\n/***********SPACE***********/\nvoid  fun (【?】)\n{\n  char *p=s;\n  while(*p)\n    if((*p>='0')&&(*p<='9')) p++;\n      /***********SPACE***********/\n    else *s++=【?】;\n      /***********SPACE***********/\n      【?】;\n}\nmain( )\n{\n  char item[100] ;\n  printf(\" \\nEnter a string: \" );\n  gets(item); fun(item);\n  printf(\" \\nThe string:\" \"%s\" \"\\n\" ,item);\n}\n```",
+        "content": "=======(答案1)=======```c\nchar *s\n```=======(答案2)=======```c\n*p++\n```=======(答案3)=======```c\n*s='\\0'\n```",
+        "tags": [
+            "字符串处理",
+            "字符过滤",
+            "指针操作"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "填空题"
+        },
+        "id": "10059",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：数组名作为函数参数，求平均成绩。\n-------------------------------------------------------*/\n#include  <stdio.h>\nfloat aver(float a[ ])             /*定义求平均值函数，形参为一浮点型数组名*/\n{\n  int i;\n  float av,s=a[0];\n  for(i=1;i<5;i++)\n  /***********SPACE***********/\n  s+=【?】[i];\n  av=s/5;\n  /***********SPACE***********/\n  return 【?】;\n}\nmain()\n{\n  float sco[5],av;\n  int i;\n  printf(\" \\ninput 5 scores:\\n\" );\n  for(i=0;i<5;i++)\n  /***********SPACE***********/\n    scanf(\" %f\" ,【?】);\n  /***********SPACE***********/\n  av=aver(【?】);\n  printf(\" average score is %5.2f\\n\" ,av);\n}\n```",
+        "content": "=======(答案1)=======```c\na\n```=======(答案2)=======```c\nav\n```=======(答案3)=======```c\n&sco[i]\n```=======(答案4)=======```c\nsco\n```",
+        "tags": [
+            "数组处理",
+            "函数应用",
+            "平均值计算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "填空题"
+        },
+        "id": "10060",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：输出结果为：\n* * * * *\n * * * * *\n  * * * * *\n   * * * * * \n-------------------------------------------------------*/\n#include  <stdio.h>\nmain()\n{\n  /***********SPACE***********/\n  static char 【?】={'*','*','*','*','*'};\n  int i,j,k;\n  char space=' ';\n  for(i=0;i<5;i++)\n  {\n    printf(\" \\n\" );\n    for(j=1;j<=3*i;j++)\n    /***********SPACE***********/\n      printf(\" %1c\" ,【?】);\n    /***********SPACE***********/\n    for(k=0;k<【?】;k++)\n      printf(\" %3c\" ,a[k]);\n  }\n  printf(\" \\n\" );;\n}\n```",
+        "content": "=======(答案1)=======```c\na[5]\n```=======(答案2)=======```c\nspace\n```=======(答案3)=======```c\n5\n```",
+        "tags": [
+            "字符串处理",
+            "循环控制",
+            "格式输出"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "填空题"
+        },
+        "id": "10061",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n题目：以下程序是实现输出 x，y，z 三个数中的最大者。\n-------------------------------------------------------*/\n#include<stdio.h>\nmain() \n{          \n    int x = 4, y = 6,z = 7; \n    /***********SPACE***********/\n    int u ,【?】; \n    if(x>y)        \n    /***********SPACE***********/\n       【?】;\n    else  u = y;\n    if(u>z)\n       v = u; \n    else \n       v=z;\n    printf(\" the max is %d\" ,v );\n}\n```",
+        "content": "=======(答案1)=======```c\nv\n```=======(答案2)=======```c\nu=x\n```",
+        "tags": [
+            "条件判断",
+            "最大值计算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "填空题"
+        },
+        "id": "10062",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：用函数调用方式，实现字符串的复制。\n-------------------------------------------------------*/\n#include  <stdio.h>\nvoid string_copy(char *str_from, char *str_to)\n{\n  int i=0;\n  /***********SPACE***********/\n  for(; (*(【?】)=*(str_from+i))!='\\0'; i++) ;\n}\nmain()\n{\n  static char array_str1[20]=\" i am a teacher.\" ;\n  char array_str2[20];\n  /***********SPACE***********/\n  【?】(array_str1, array_str2);\n  /***********SPACE***********/\n  【?】(\" array_str2=%s\\n\" ,array_str2);\n}\n```",
+        "content": "=======(答案1)=======```c\nstr_to+i\n```=======(答案2)=======```c\nstring_copy\n```=======(答案3)=======```c\nprintf\n```",
+        "tags": [
+            "字符串处理",
+            "函数应用",
+            "字符串复制"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "填空题"
+        },
+        "id": "10063",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：输出九九乘法口诀表。\n-------------------------------------------------------*/\n#include  <stdio.h>\nmain()\n{\n  int i,j,result;\n  printf(\" \\n\" );\n  /***********SPACE***********/\n  for (i=1;【?】;i++)\n  {\n    /***********SPACE***********/\n    for(j=1;j<=i;【?】)\n    {\n      result=i*j;\n      /***********SPACE***********/\n      printf(\" %d*%d=%-3d\" ,i,j,【?】);\n    }\n  printf(\" \\n\" );\n  }\n}\n```",
+        "content": "=======(答案1)=======```c\ni<10\n```=======(答案2)=======```c\nj++\n```=======(答案3)=======```c\nresult\n```",
+        "tags": [
+            "循环控制",
+            "数学运算",
+            "字符串格式化"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "填空题"
+        },
+        "id": "10064",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：接受用户输入的字符串并识别出其中的单词，每个单词输出一行。\n-------------------------------------------------------*/\n#include <stdio.h>\n#include <string.h>\nvoid main()\n{\n  int c;\n  int inspace;\n  /***********SPACE***********/\n  【?】;\n  while((c = getchar()) != '\\n')\n  {\n    if(c == ' ' || c == '\\t' || c == '\\n')\n    {\n      /***********SPACE***********/\n      if(【?】)\n      {\n        inspace = 1;\n        putchar('\\n');\n      }\n    }\n    else\n    {\n      inspace = 0;\n      /***********SPACE***********/\n      【?】;\n    }\n  }\n}\n```",
+        "content": "=======(答案1)=======```c\ninspace = 0\n```=======(答案2)=======```c\ninspace == 0\n```=======(答案3)=======```c\nputchar(c)\n```",
+        "tags": [
+            "字符串处理",
+            "字符识别",
+            "文本输出"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "编程题"
+        },
+        "id": "10065",
+        "title": "```c\n/*------------------------------------------------\n【程序设计】\n--------------------------------------------------\n功能：把20个随机数存入一个数组，然后输出该数组中的\n      最大值。\n------------------------------------------------*/\n#include <stdio.h>\n#include <stdlib.h> // For rand() and srand() functions\n#include <time.h>  // For time() function\n#define VSIZE 20\nvoid  wwjt();\nint vector[VSIZE] ;\nint fun(int list[],int size)\n{\n  /**********Program**********/\n  \n  \n  \n  \n  \n  /**********  End  **********/\n}\nmain()\n{\n  int i;\n  srand(time(NULL)); // Seed the random number generator\n  for (i=0;i<VSIZE;i++)\n  {\n    vector[i]=rand();\n    printf(\" Vector[%d]=%6d\\n\" ,i,vector[i]);\n  }\n  i=fun(vector,VSIZE);\n  printf(\" \\nMaxnum: Vector[%d]=%6d\\n\" ,i,vector[i]);\n\n  wwjt();\n}\nvoid wwjt()\n{\n  int i,t;\n  FILE *fp ;\n  fp = fopen(\" out.dat\" , \" w\" );\n  for (i=0;i<VSIZE;i++)\n  {\n    fprintf(fp,\" Vector[%d]=%6d\\n\" ,i,vector[i]);\n  }\n  t=fun(vector,VSIZE);\n  fprintf(fp,\" \\nMaxnum: Vector[%d]=%6d\\n\" ,t,vector[t]);\n  fclose(fp) ;\n}\n```",
+        "content": "\n----------------------```c\nint i,max=0;\nfor(i=1; i <size; i++)\nif(list[max]<list[i])\n  max=i;\nreturn max;\n```----------------------\n",
+        "tags": [
+            "数组",
+            "最大值",
+            "随机数生成"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "编程题"
+        },
+        "id": "10066",
+        "title": "```c\n/*------------------------------------------------\n【程序设计】\n--------------------------------------------------\n功能：求一个给定字符串中的字母的个数。\n------------------------------------------------*/\n#include <stdio.h>\nvoid wwjt();\nint fun(char s[])\n{\n  /**********Program**********/\n  \n  \n  \n  \n  \n  /**********  End  **********/\n}\nmain()\n{\n  char str[]=\" Best wishes for you!\" ;\n  int k;\n  k=fun(str);\n  printf(\" k=%d\\n\" ,k);\n  wwjt();\n}\nvoid wwjt()\n{\n  FILE *IN,*OUT;\n  char sin[80];\n  int iOUT,i;\n  IN=fopen(\" in.dat\" ,\" r\" );\n  if(IN==NULL)\n  {\n    printf(\" Please Verify The Currernt Dir..it May Be Changed\");\n  }\n  OUT=fopen(\" out.dat\" ,\" w\" );\n  if(OUT==NULL)\n  {\n    printf(\" Please Verify The Current Dir.. It May Be Changed\");\n  }\n  for(i=0;i<10;i++)\n  {\n    fscanf(IN,\" %s\" ,sin);\n    iOUT=fun(sin);\n  }\n  fprintf(OUT,\" %d\\n\" ,iOUT);\n  fclose(IN);\n  fclose(OUT);\n}\n```",
+        "content": "----------------------```c\nint i,k=0;\nfor(i=0;s[i]!=\\'\\0\\';i++)\nif(s[i]>=\\'a\\'&&s[i]<=\\'z\\'||s[i]>=\\'A\\'&&s[i]<=\\'Z\\')\nk++;\nreturn k;\n```----------------------",
+        "tags": [
+            "字符串处理",
+            "字符判断",
+            "文件操作"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "编程题"
+        },
+        "id": "10067",
+        "title": "```c\n/*------------------------------------------------\n【程序设计】\n--------------------------------------------------\n功能：求一组数中大于平均值的数的个数。\n例如：给定的一组数为1,3,6,9,4,23,35,67,12,88时，函数值为3。\n------------------------------------------------*/\n#include <stdio.h>\nvoid  wwjt();\nint fun(int a[],int n)\n{\n  /**********Program**********/\n  \n  \n  \n  \n  \n  /**********  End  **********/\n}\nmain()\n{\n  int a[10]={1,3,6,9,4,23,35,67,12,88};\n  int y;\n  y=fun(a,10);\n  printf(\" y=%d\\n\" ,y);\n  wwjt();\n}\nvoid wwjt()\n{\n  FILE *IN,*OUT;\n  int iIN[10],iOUT,i,j;\n  IN=fopen(\" in.dat\" ,\" r\" );\n  if(IN==NULL)\n  {\n    printf(\" Please Verify The Currernt Dir..it May Be Changed\");\n  }\n  OUT=fopen(\" out.dat\" ,\" w\" );\n  if(OUT==NULL)\n  {\n    printf(\" Please Verify The Current Dir.. it May Be Changed\");\n  }\n  for(j=0;j<10;j++)\n  {\n    for(i=0;i<10;i++)\n      fscanf(IN,\" %d\" ,&iIN[i]);\n    iOUT=fun(iIN,10);\n  }\n  fprintf(OUT,\" %d\\n\" ,iOUT);\n  fclose(IN);\n  fclose(OUT);\n}\n```",
+        "content": "----------------------```c\nint i,k=0;\n   float s=0,ave;\n   for(i=0;i<n;i++)\n    s+=a[i];\n    ave=s/n;\n    printf(\" %f  \",ave);\n   for(i=0;i<n;i++)\n    if(a[i]>ave)k++;\n    return k;\n```----------------------",
+        "tags": [
+            "数组",
+            "平均值",
+            "统计"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "编程题"
+        },
+        "id": "10068",
+        "title": "```c\n/*------------------------------------------------\n【程序设计】\n--------------------------------------------------\n功能：求一个给定字符串中的字母的个数。\n------------------------------------------------*/\n#include <stdio.h>\nvoid wwjt();\nint fun(char s[])\n{\n  /**********Program**********/\n  \n  \n  \n  \n  \n  /**********  End  **********/\n}\nmain()\n{\n  char str[]=\" Best wishes for you!\" ;\n  int k;\n  k=fun(str);\n  printf(\" k=%d\\n\" ,k);\n  wwjt();\n}\nvoid wwjt()\n{\n  FILE *IN,*OUT;\n  char sin[80];\n  int iOUT,i;\n  IN=fopen(\" in.dat\" ,\" r\" );\n  if(IN==NULL)\n  {\n    printf(\" Please Verify The Currernt Dir..it May Be Changed\");\n  }\n  OUT=fopen(\" out.dat\" ,\" w\" );\n  if(OUT==NULL)\n  {\n    printf(\" Please Verify The Current Dir.. It May Be Changed\");\n  }\n  for(i=0;i<10;i++)\n  {\n    fscanf(IN,\" %s\" ,sin);\n    iOUT=fun(sin);\n  }\n  fprintf(OUT,\" %d\\n\" ,iOUT);\n  fclose(IN);\n  fclose(OUT);\n}\n```",
+        "content": "----------------------```c\nint i,k=0;\n   for(i=0;s[i]!=\\0;i++)\n    if(s[i]>=\\'a\\'&&s[i]<=\\'z\\'||s[i]>=\\'A\\'&&s[i]<=\\'Z\\')\n     k++;\n    return k;\n```----------------------",
+        "tags": [
+            "字符串处理",
+            "字符判断",
+            "文件操作"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "编程题"
+        },
+        "id": "10069",
+        "title": "```c\n/*------------------------------------------------\n【程序设计】\n--------------------------------------------------\n功能：根据整型形参m，计算如下公式的值：y=sin(m)*10。\n例如：若m=9，则应输出：4.121185\n------------------------------------------------*/\n#include <stdio.h>\n#include \"math.h\"\nvoid  wwjt();\n\ndouble fun(int m)\n{\n  /**********Program**********/\n  \n  \n  \n  \n  \n  /**********  End  **********/\n}\nmain()\n{\n  int n;\n  printf(\" Enter n: \");\n  scanf(\" %d\" , &n);\n  printf(\"\\nThe result is %1f\\n\" , fun(n));\n  wwjt();\n}\nvoid wwjt()\n{\n  FILE *IN,*OUT;\n  int i;\n  int t;\n  double o;\n  IN=fopen(\" in.dat\" ,\" r\" );\n  if(IN==NULL)\n  {\n    printf(\" Read FILE Error\");\n  }\n  OUT=fopen(\" out.dat\" ,\" w\" );\n  if(OUT==NULL)\n  {\n    printf(\" Write FILE Error\");\n  }\n  for(i=0;i<5;i++)\n  {\n    fscanf(IN,\" %d\" ,&t);\n    o=fun(t);\n    fprintf(OUT,\" %f\\n\" ,o);\n  }\n  fclose(IN);\n  fclose(OUT);\n}\n```",
+        "content": "----------------------```c\ndouble y=0;\ny=sin(m)*10;\nreturn(y);\n```----------------------",
+        "tags": [
+            "函数",
+            "文件操作"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10070",
+        "title": "下列各m的值中，能使m%3==2&&m%5==3&&m%7==2为真的是（）。\nA:8\nB:23\nC:17\nD:6\n",
+        "content": "B",
+        "tags": [
+            "逻辑运算",
+            "数值运算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10071",
+        "title": "凡是函数中未指定存储类别的局部变量，其隐含的存储类别为（）。\nA:自动(auto)\nB:静态(static)\nC:外部(extern)\nD:寄存器(register)\n",
+        "content": "A",
+        "tags": [
+            "函数",
+            "局部变量",
+            "存储"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10072",
+        "title": "下列字符数组长度为5的是\nA:char a[]={'h', 'a', 'b', 'c', 'd'};\nB:char b[]={'h', 'a', 'b', 'c', 'd', '\\0'};\nC:char c[10]={'h', 'a', 'b', 'c', 'd'};\nD:char d[6]={'h', 'a', 'b', 'c', '\\0'};\n",
+        "content": "A",
+        "tags": [
+            "数组",
+            "长度"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10073",
+        "title": "下列定义不正确的是（）。\nA:#define PI 3.141592\nB:#define S 345\nC:int max(x,y);  int x,y; {  }\nD:static char c;\n",
+        "content": "D",
+        "tags": [
+            "初始化",
+            "定义",
+            "变量",
+            "常量"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10074",
+        "title": "fwrite函数的一般调用形式是（）。\nA:fwrite(buffer,count,size,fp);\nB:fwrite(fp,size,count,buffer);\nC:fwrite(fp,count,size,buffer);\nD:fwrite(buffer,size,count,fp);\n",
+        "content": "D",
+        "tags": [
+            "函数",
+            "文件读写",
+            "调用"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10075",
+        "title": "```c\n/*------------------------------------------------------        \n【程序改错】\n--------------------------------------------------------\n功能：计算数组元素中值为正数的平均值(不包括0)。\n例如：数组中元素的值依次为39，-47，21，2，-8，15，0，则程序的运行结果为19.250000。\n------------------------------------------------------*/\n#include <stdio.h>\ndouble fun(int s[])\n{\n  /**********FOUND**********/\n  int  sum=0.0;\n  int c=0,i=0;\n  /**********FOUND**********/\n  while(s[i] =0)\n  {\n    if (s[i]>0)\n    {\n      sum+=s[i];\n      c++;\n    }\n    i++;\n  }\n  /**********FOUND**********/\n  sum=c;\n  /**********FOUND**********/\n  return c;\n}\nmain()\n{\n  int x[1000];int i=0;\n  do\n  {\n    scanf(\" %d\" ,&x[i]);}\n    while(x[i++]!=0);\n    printf(\" %f\n\" ,fun(x));\n}\n```",
+        "content": "```c\n=======(答案1)=======\ndouble sum=0.0;\n=========或=========\ndouble sum=0;\n=======(答案2)=======\nwhile( s[i] != 0 )\n=========或=========\nwhile(!s[i]==0)\n=========或=========\nwhile(!0==s[i])\n=========或=========\nwhile(s[i])\n=======(答案3)=======\nsum/=c;\n=========或=========\nsum=sum/c;\n=======(答案4)=======\nreturn sum;\n=========或=========\nreturn (sum);\n```",
+        "tags": [
+            "数组",
+            "数值运算",
+            "平均值"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10076",
+        "title": "```c\n/*------------------------------------------------------    \n【程序改错】\n--------------------------------------------------------\n功能：输入一个字符串，过滤此串，滤掉字母字符，并统计新生成串中包含的字符个数。\n例如：输入的字符串为ab234$df4，则输出为：\n      The new string is 234$4 \n      There are 5 char in the new string.。\n------------------------------------------------------*/\n#include <stdio.h>\n#include <conio.h>\n#define N 80\nint fun(char *ptr)\n{\n  int i,j;\n  /**********FOUND**********/\n  for(i=0,j=0;*(ptr+i)!=\" \\\\0\" ;i++)\n    /**********FOUND**********/\n    if(*(ptr+i)>'z'|| *(ptr+i)<'a'||*(ptr+i)>'Z' || *(ptr+i)<'A')\n    {\n      /**********FOUND**********/\n      (ptr+j)=(ptr+i);\n      j++;\n    }\n  *(ptr+j)='\\0';\n  return(j);\n}\nint main()\n{\n  char str[N];\n  int s;\n  printf(\" input a string:\" );gets(str);\n  printf(\" The original string is :\" ); puts(str);\n  s=fun(str);\n  printf(\" The new string is :\" );puts(str);\n  printf(\" There are %d char in the new string.\" ,s);\n  getchar();\n  return 0;\n}\n```",
+        "content": "```c\n=======(答案1)=======\nfor(i=0,j=0;*(ptr+i)!='\\0';i++)\n=======(答案2)=======\nif( *(ptr+i)>'z' ||  *(ptr+i)<'a'&&*(ptr+i)>'Z'  ||  *(ptr+i)<'A' )\n=======(答案3)=======\n*(ptr+j)=*(ptr+i);\n```",
+        "tags": [
+            "输入",
+            "输出",
+            "字符串",
+            "字符"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "代码补全"
+        },
+        "id": "10077",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：输出九九乘法口诀表。\n-------------------------------------------------------*/\n#include  <stdio.h>\nmain()\n{\n  int i,j,result;\n  printf(\" \\n\" );\n  /***********SPACE***********/\n  for (i=1;【?】;i++)\n  { \n    /***********SPACE***********/\n    for(j=1;j<=i;【?】)\n    {\n      result=i*j;\n      /***********SPACE***********/\n      printf(\" %d*%d=%-3d\" ,i,j,【?】);\n    }\n  printf(\" \\n\" );\n  }\n}\n```",
+        "content": "```c\n=======(答案1)=======\ni<10\n=========或=========\n10>i\n=========或=========\ni<=9\n=========或=========\n9>=i\n=======(答案2)=======\nj++\n=========或=========\n++j\n=========或=========\nj=j+1\n=========或=========\nj=1+j\n=======(答案3)=======\nresult\n=========或=========\ni*j\n=========或=========\nj*i\n```",
+        "tags": [
+            "输出",
+            "循环",
+            "数值运算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "代码补全"
+        },
+        "id": "10078",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：接受用户输入的字符串并识别出其中的单词，每个单词输出一行。\n-------------------------------------------------------*/\n#include <stdio.h>\n#include <string.h>\nvoid main()\n{\n  int c;\n  int inspace;\n  /***********SPACE***********/\n  【?】;\n  while((c = getchar()) != '\\n')\n  {\n    if(c == ' ' || c == '\\t' || c == '\\n')\n    {\n      /***********SPACE***********/\n      if(【?】)\n      {\n        inspace = 1;\n        putchar('\\n');\n      }\n    }\n    else\n    {\n      inspace = 0;\n      /***********SPACE***********/\n      【?】; \n    }\n  }\n}\n```",
+        "content": "```c\n=======(答案1)=======\ninspace = 0\n=======(答案2)=======\ninspace == 0\n=======(答案3)=======\nputchar(c)\n```",
+        "tags": [
+            "输入",
+            "字符串",
+            "输出"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "代码补全"
+        },
+        "id": "10079",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：删除字符串中的指定字符，字符串和要删除的字符均由键盘输入。\n-------------------------------------------------------*/\n#include <stdio.h>\nmain()\n{\n  char str[80],ch;\n  int i,k=0;\n  /***********SPACE***********/\n  gets(【?】);\n  ch=getchar();\n  /***********SPACE***********/\n  for(i=0;【?】;i++)\n    if(str[i]!=ch) \n    {\n       /***********SPACE***********/\n       【?】;\n        k++;\n    }\n  /***********SPACE***********/\n  【?】;\n  puts(str);\n }\n```",
+        "content": "```c\n=======(答案1)=======\nstr\n=======(答案2)=======\nstr[i]!='\\0'\n=========或=========\nstr[i]!=NULL\n=========或=========\nstr[i]!=0\n=========或=========\nstr[i]\n=======(答案3)=======\nstr[k]=str[i]\n=========或=========\n*(str+k)=*(str+i)\n=========或=========\nstr[k]=*(str+i)\n=========或=========\n*(str+k)=str[i]\n=======(答案4)=======\nstr[k]='\\0'\n=========或=========\n*(str+k)='\\0'\n=========或=========\nstr[k]=NULL\n=========或=========\nstr[k]=0\n=========或=========\n*(str+k)=0\n=========或=========\n*(str+k)=NULL\n```",
+        "tags": [
+            "字符串",
+            "字符数组",
+            "删除"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "代码补全"
+        },
+        "id": "10080",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：考查字符串数组的应用。输出26个英文字母。\n-------------------------------------------------------*/\n#include <stdio.h>\nint main (void)\n{\n  char string[256];\n  int i;\n  /***********SPACE***********/\n  for (i = 0; i < 26; 【?】)\n  /***********SPACE***********/\n    string[i] = 【?】;\n  string[i] = '\\0';\n  /***********SPACE***********/\n  printf (\" the arrary contains %s\\n\" ,【?】);\n}\n```",
+        "content": "```c\n=======(答案1)=======\ni++\n=========或=========\n++i\n=========或=========\ni=i+1\n=========或=========\ni+=1\n=======(答案2)=======\n'A' + i\n=========或=========\ni+'A'\n=========或=========\n65 + i\n=========或=========\ni+65\n=======(答案3)=======\nstring\n```",
+        "tags": [
+            "字符数组",
+            "输出"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "编程题"
+        },
+        "id": "10081",
+        "title": "```c\n/*------------------------------------------------\n【程序设计】\n--------------------------------------------------\n功能：编写main程序调用函数fact求解从m个元素选n个元素的组合数的个数。计算公式是：\n      组合数＝m!/(n!.(m-n)!)。要求:m不能小于n，否则应有容错处理。\n说明：函数fact(x)的功能是求x!。\n------------------------------------------------*/\n#include <stdio.h>\nvoid  wwjt(); \nlong fact(int x)\n{\n  long y;\n  int i;\n  y=1;\n  for(i=1;i<=x;i++)\n    y=y*i;\n  return y;\n}\nmain()\n{\n  int m,n;\n  long zhsgs;\n  printf(\" 请输入m和n:\\n\" );  scanf(\" %d%d\" ,&m,&n);\n  /**********Program**********/\n  \n  \n  \n  \n  \n    /**********  End  **********/\n  printf(\" 从%d个元素选%d个元素的组合数的个数是:%d\\n\" ,m,n,zhsgs);\n  wwjt();\n}\nvoid wwjt()\n{\n  FILE *IN,*OUT;\n  int n;\n  int i;\n  long o;\n  IN=fopen(\" in.dat\" ,\" r\" );\n  if(IN==NULL)\n  {\n    printf(\" Read FILE Error\" );\n  }\n  OUT=fopen(\" out.dat\" ,\" w\" );\n  if(OUT==NULL)\n  {\n    printf(\" Write FILE Error\" );\n  }\n  for(n=0;n<5;n++)\n  {    \n    fscanf(IN,\" %d\" ,&i);\n    o = fact(i);\n    fprintf(OUT,\" %ld\\n\" ,o);\n  }\n  fclose(IN);\n  fclose(OUT);\n}\n```",
+        "content": "```c\nwhile(m<n)\n  {\n   printf(\" m和n输入错！请重新输入:\\n\" );\n   scanf(\" %d%d\" ,&m,&n);\n  }\n zhsgs=fact(m)/(fact(n)*fact(m-n));\n```",
+        "tags": [
+            "函数",
+            "调用",
+            "组合数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10082",
+        "title": "当定义一个结构体变量时，系统分配给它的内存是（）。\nA:各成员所需内存量的总和\nB:结构中第一个成员所需内存量\nC:结构中最后一个成员所需内存量\nD:成员中占内存量最大者所需的容量\n",
+        "content": "A",
+        "tags": [
+            "结构体变量",
+            "内存",
+            "定义"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10083",
+        "title": "C语言允许函数类型缺省定义，此时函数值隐含的类型是（）。\nA:float\nB:int\nC:long\nD:double\n",
+        "content": "B",
+        "tags": [
+            "函数类型",
+            "定义"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10084",
+        "title": "函数 ftell(fp) 的作用是（）。\nA:得到流式文件中的当前位置\nB:移到流式文件的位置指针\nC:初始化流式文件的位置指针\nD:以上答案均正确\n",
+        "content": "A",
+        "tags": [
+            "流式文件",
+            "文件",
+            "函数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10085",
+        "title": "表达式，0x13&0x17的值是（）。\nA:0x17\nB:0x13\nC:0xf8\nD:0xec\n",
+        "content": "B",
+        "tags": [
+            "表达式",
+            "值",
+            "运算符"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10086",
+        "title": "有以下程序段\n\n```c\nint n=0,p;\ndo\n{\n  scanf(\" %d\" ,&p);\n  n++;\n}while(p!=12345&&n<3);\n```\n\n此处do-while循环的结束条件是______。\nA:p的值不等于12345并且n的值小于3\nB:p的值等于12345并且n的值大于等于3\nC:p的值不等于12345或者n的值小于3\nD:p的值等于12345或者n的值大于等于3",
+        "content": "D",
+        "tags": [
+            "循环结构",
+            "条件"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10087",
+        "title": "以下程序段中，能够正确地执行循环的是（）。\nA:```c\nfor(i=1;i>10;i++)\n```\nB:```c\nstatic int a;\nwhile(a)\n```\nC:```c\nint s=6;\ndo s-=2;\nwhile(s);\n```\nD:```c\nint s=6;\nm:if(s<100)\n    exit(0);\n   else s-=2;\ngoto m:\n```\n",
+        "content": "C",
+        "tags": [
+            "循环结构",
+            "条件",
+            "语句"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10088",
+        "title": "在C语言中，形参的缺省存储类是（）。\nA:auto\nB:register\nC:static\nD:extern",
+        "content": "A",
+        "tags": [
+            "形参",
+            "存储",
+            "类型"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10089",
+        "title": "若要说明一个类型名STP，使得定义语句STP s等价于char *s，以下选项中正确的是（）。\nA:typedef STP char *s;\nB:typedef *char STP;\nC:typedef stp *char;\nD:typedef char* STP;",
+        "content": "D",
+        "tags": [
+            "类型名",
+            "声明",
+            "定义"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10090",
+        "title": "如果int a=2,b=3,c=0,下列描述正确的是\nA:a>b!=c和a>(b!=c)的执行顺序是一样的\nB:!a!=(b!=c)表达式的值为1\nC:a||(b=c)执行后b的值为0\nD:a&&b>c的结果为假",
+        "content": "B",
+        "tags": [
+            "表达式",
+            "运算符",
+            "值"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10091",
+        "title": "执行下列语句后的输出为（）。\n\n```c\n int j=-1;\n if(j<=1) printf(\" ****\\n\" );\n else     printf(\" %%%%\\n\" );\n```\n\nA:****\nB:%%%%\nC:%%%%c\nD:有错,执行不正确",
+        "content": "A",
+        "tags": [
+            "输出",
+            "条件"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10092",
+        "title": "下列程序的输出结果是（）。\n\n```c\nmain()\n{char c1=97,c2=98;\nprintf(\" %d %c\" ,c1,c2);\n}\n```\n\nA:97 98\nB:97 b\nC:a 98\nD:a b",
+        "content": "B",
+        "tags": [
+            "输出",
+            "格式"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10093",
+        "title": "printf函数中用到格式符%5s，其中数字5表示输出的字符串占用5列，如果字符串长度大于5，则输出按方式（）。\nA:从左起输出该字符串,右补空格\nB:按原字符长从左向右全部输出\nC:右对齐输出该字串,左补空格\nD:输出错误信息\n",
+        "content": "B",
+        "tags": [
+            "格式",
+            "字符串",
+            "输出"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10094",
+        "title": "下面说法中错误的是\nA:共用体变量的地址和它各成员的地址都是同一地址\nB:共用体内的成员可以是结构变量,反之亦然\nC:在任一时刻,共用体变量的各成员只有一个有效\nD:函数可以返回一个共用体变量\n",
+        "content": "D",
+        "tags": [
+            "共用体变量",
+            "地址",
+            "成员",
+            "结构体变量",
+            "函数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10095",
+        "title": "在位运算中，操作数每右移一位，其结果相当于（）。\nA:操作数乘以2\nB:操作数除以2\nC:操作数乘以16\nD:操作数除以16\n",
+        "content": "B",
+        "tags": [
+            "位运算",
+            "移位"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10096",
+        "title": "```c\n/*------------------------------------------------------        \n【程序改错】\n--------------------------------------------------------\n功能：将6个数按输入时顺序的逆序进行排列\n------------------------------------------------------*/\n#include <stdio.h>\nsort(char *p,int m)\n{ \n  int i;\n  char change,*p1,*p2;\n  for(i=0;i<m/2;i++)\n  {\n    /***********FOUND***********/\n    *p1=p+i; *p2=p+(m-1-i);\n    change=*p1;\n    *p1=*p2;\n    *p2=change;\n  }\n}\nmain( )\n{\n  int i;\n  /***********FOUND***********/\n  char  p,num[6]; \n  for(i=0;i<=5;i++) \n    /***********FOUND***********/\n    scanf(\" %d\" ,num[i]);\n  p=&num[0];\n  /***********FOUND***********/\n  sort(*p,6);\n  for(i=0;i<=5;i++)  \n    printf(\" %d\" ,num[i]);\n}\n```",
+        "content": "```c\n=======(答案1)=======\np1=p+i; p2=p+(m-1-i);\n=======(答案2)=======\nchar  *p,num[6];\n=======(答案3)=======\nscanf(\" %d\" ,&num[i]);\n=======(答案4)=======\nsort(p,6);\n```",
+        "tags": [
+            "逆序",
+            "输入",
+            "数组",
+            "输出"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10097",
+        "title": "```c\n/*------------------------------------------------------    \n【程序改错】\n--------------------------------------------------------\n功能：分别统计输入的字符串中各元音字母（即：A、E、i、O、U）的个数。\n注意：字母不分大、小写。\n例如：若输入：THis is a boot，则输出应该是：1、0、2、2、0。\n------------------------------------------------------*/\n#include <conio.h>\n#include <stdio.h>\nfun ( char *s, int num[5] )\n{\n  int k, i=5;\n  for ( k = 0; k<i; k++ )\n    /**********FOUND**********/\n    num[i]=0;\n  for (; *s; s++)\n  {\n    i = -1;\n    /**********FOUND**********/\n    switch ( s )\n    {\n      case 'a':\n      case 'A': \n               {\n                 i=0;\n                 break;\n               }\n      case 'e':\n      case 'E':\n                {\n                  i=1;\n                  break;\n                }\n      case 'i':\n      case 'I':\n                {\n                  i=2;\n                  break;\n                }\n      case 'o':\n      case 'O': \n                {\n                  i=3;\n                  break;\n                }\n      case 'u':\n      case 'U': \n                {\n                  i=4;\n                  break;\n                }\n   }\n   /**********FOUND**********/\n   if (i < 0)\n     num[i]++;\n  }\n} \nmain( )\n{\n  char s1[81]; int num1[5], i;\n  printf(\" \\nPlease enter a string: \"  ); gets( s1 );\n  fun ( s1, num1 );\n  for ( i=0; i < 5; i++ )\n    printf (\" %d \" ,num1[i]);\n  printf (\" \\n\" );\n}\n```",
+        "content": "```c\n=======(答案1)=======\nnum[k]=0;\n=======(答案2)=======\nswitch(*s)\n=======(答案3)=======\nif (i >= 0)\n```",
+        "tags": [
+            "字符串",
+            "字符",
+            "计数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10098",
+        "title": "```c\n/*------------------------------------------------------    \n【程序改错】\n--------------------------------------------------------\n功能：读入一行英文文本，将其中每个单词的最后一个字母改成大写，然后输出此文本行 （这里的“单词”是指由空格隔开的字符串）。\n例如：若输入“i am a student to take the examination.”，则应输出“i aM A studenT tO takE thE examination.”。\n------------------------------------------------------*/\n#include \" conio.h\" \n#include <stdio.h>\n#include \" ctype.h\" \n#include \" string.h\" \nup1st ( char *p )\n{\n  /**********FOUND**********/\n  integer k = 0;\n  for ( ; *p; p++ )\n    if ( k )\n    {\n      /**********FOUND**********/\n      if ( *p = ' ' )\n      {\n        k = 0;\n        /**********FOUND**********/\n        *(p -1 ) = toupper( *( p - 1 );\n      }\n    }\n    else if ( *p != ' ' ) k = 1;\n      *( p-1 ) = toupper( *(p-1) );\n}\n \nmain( )\n{\n  char chrstr[81];\n  printf( \" \\nPlease enter a string: \"  );\n  gets ( chrstr );\n  printf( \" \\n\\nBefore changing:\\n %s\" , chrstr );\n  up1st( chrstr );\n  printf( \" \\nAfter changing:\\n %s\" , chrstr );\n}\n```",
+        "content": "```c\n=======(答案1)=======\nint k=0;\n=======(答案2)=======\nif ( *p == ' ' )\n=======(答案3)=======\n*(p -1 ) = toupper( *( p - 1 ));\n```",
+        "tags": [
+            "字符数组",
+            "字符串",
+            "大写",
+            "输出"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "代码补全"
+        },
+        "id": "10099",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：输入一个学生的生日（年：y0、月：m0、日：d0），并输入当前日期（年：y1、月：m1、日：d1）。求出该学生的年龄（实足年龄）。\n-------------------------------------------------------*/\n#include <stdio.h>\nmain()\n{int age,y0,y1,m0,m1,d0,d1;\n printf(\" 输入生日日期（年,月,日）\" );\n/***********SPACE***********/\n 【?】(\" %d,%d,%d\" ,&y0,&m0,&d0);\n printf(\" 输入当前日期（年,月,日)\" );\n scanf(\" %d,%d,%d\" ,&y1,&m1,&d1);\n age=y1-y0;\n/***********SPACE***********/\n if(m0【?】m1)age--;\n/***********SPACE***********/\n if((m0【?】m1)&&(d0>d1))age--;\n printf(\" age=%3d\" ,age);\n}\n```",
+        "content": "```c\n=======(答案1)=======\nscanf\n=======(答案2)=======\n>\n=======(答案3)=======\n==\n```",
+        "tags": [
+            "指针数组",
+            "地址",
+            "指向"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "代码补全"
+        },
+        "id": "10100",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n--------------------------------------------------------\n题目：以下程序是实现输出 x，y，z 三个数中的最大者。\n-------------------------------------------------------*/\n#include<stdio.h>\nmain() \n{         \n    int x = 4, y = 6,z = 7; \n    /***********SPACE***********/\n    int u ,【?】; \n    if(x>y)        \n    /***********SPACE***********/    \n       【?】;\n    else  u = y;\n    if(u>z)\n       v = u; \n    else \n       v=z;\n    printf(\" the max is %d\" ,v );\n}\n```",
+        "content": "```c\n=======(答案1)=======\nv\n=======(答案2)=======\nu=x\n```",
+        "tags": [
+            "数值型变量",
+            "比较",
+            "输出"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "代码补全"
+        },
+        "id": "10101",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n程序的功能是：考察对输出格式符的应用和特殊表达式的撰写。本程序的最终输出如下结果。请把程序补充完整。注意正确地使用和设置各个变量。\n      b=-1  a=65535\n      a=65534\n      a=30 b=6 c=5\n      按要求在空中填入合适的变量完善程序。\n-------------------------------------------------------*/\n#include <stdio.h>\nmain()\n{\n  /***********SPACE***********/\n  int b=-1,【?】;unsigned a;\n  /***********SPACE***********/\n  a=【?】;\n  printf(\" b=%d a=%u\\n\" ,b,a);\n  /***********SPACE***********/\n  【?】+=b;\n  printf(\" a=%u\\n\" ,a);\n  /***********SPACE***********/\n  b=(a=30)/【?】;\n  printf(\" a=%d b=%d c=%d\\n\" ,a,b,c);\n}\n```",
+        "content": "```c\n=======(答案1)=======\nc\n=======(答案2)=======\nb\n=======(答案3)=======\na\n=======(答案4)=======\n(c=5)\n```",
+        "tags": [
+            "输出",
+            "格式",
+            "表达式"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "代码补全"
+        },
+        "id": "10102",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：编写程序，计算出数组中F中所有可被7整除但不能被3整除的整数之和。\n-------------------------------------------------------*/\n#include <stdio.h>\n#define max 100\nint main()\n{\n  /***********SPACE***********/\n  int f[max],i,j,【?】;\n  for(i=0;i<max;i++) f[i]=2*i;\n  for(i=0;i<max;i++){\n  /***********SPACE***********/\n    if(【?】)\n  /***********SPACE***********/\n       sumx=sumx+【?】;\n  }\n  /***********SPACE***********/\n  printf(\" The result is:【?】\\n\" ,sumx);\n}\n```",
+        "content": "```c\n=======(答案1)=======\nsumx = 0\n=======(答案2)=======\nf[i] % 7 == 0 && f[i] % 3 != 0\n=======(答案3)=======\nf[i]\n=======(答案4)=======\n%d\n```",
+        "tags": [
+            "数组",
+            "整除",
+            "数值运算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "编程题"
+        },
+        "id": "10103",
+        "title": "```c\n/*------------------------------------------------\n【程序设计】\n--------------------------------------------------\n功能：求一组数中大于平均值的数的个数。\n例如：给定的一组数为1,3,6,9,4,23,35,67,12,88时，函数值为3。\n------------------------------------------------*/\n    \n#include <stdio.h>\nvoid  wwjt(); \nint fun(int a[],int n)\n{\n  \n  /**********Program**********/\n  \n  \n  \n  \n  \n  \n  /**********  End  **********/\n  \n}\nmain()\n{\n  int a[10]={1,3,6,9,4,23,35,67,12,88};\n  int y;\n  y=fun(a,10);\n  printf(\" y=%d\\n\" ,y);\n  wwjt();\n}\nvoid wwjt()\n{\n  FILE *IN,*OUT;\n  int iIN[10],iOUT,i,j;\n  IN=fopen(\" in.dat\" ,\" r\" );\n  if(IN==NULL)\n  {\n    printf(\" Please Verify The Currernt Dir..it May Be Changed\" );\n  }\n  OUT=fopen(\" out.dat\" ,\" w\" );\n  if(OUT==NULL)\n  {\n    printf(\" Please Verify The Current Dir.. it May Be Changed\" );\n  }\n  for(j=0;j<10;j++)\n  {     \n    for(i=0;i<10;i++)\n      fscanf(IN,\" %d\" ,&iIN[i]);\n    iOUT=fun(iIN,10);\n  }\n  fprintf(OUT,\" %d\\n\" ,iOUT);\n  fclose(IN);\n  fclose(OUT);\n}\n```",
+        "content": "```c\nint i,k=0;\n   float s=0,ave;\n   for(i=0;i<n;i++)\n    s+=a[i];\n    ave=s/n;\n    printf(\" %f  \" ,ave);\n   for(i=0;i<n;i++)\n    if(a[i]>ave)k++;\n    return k;\n```",
+        "tags": [
+            "数值型变量",
+            "平均值",
+            "比较"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "编程题"
+        },
+        "id": "10104",
+        "title": "```c\n/*------------------------------------------------\n【程序设计】\n--------------------------------------------------\n功能：能计算从1开始到n的自然数中偶数的平方的和，n由键盘输入，并在main()函数中输出。（n是偶数）\n------------------------------------------------*/\n#include <stdio.h>\nvoid  wwjt(); \n  \nint fun(int n)\n{\n  /**********Program**********/\n  \n  \n  \n  \n  \n  \n  /**********  End  **********/\n  \n}\nmain()   \n{\n  int m;\n  printf(\" Enter m: \" );\n  scanf(\" %d\" , &m);\n  printf(\" \\nThe result is %d\\n\" , fun(m));\n  wwjt();\n}   \nvoid wwjt()\n{\n  FILE *IN,*OUT;\n  int t;\n  int o;\n  int c;\n  IN=fopen(\" in.dat\" ,\" r\" );\n  if(IN==NULL)\n  {\n    printf(\" Read FILE Error\" );\n  }\n  OUT=fopen(\" out.dat\" ,\" w\" );\n  if(OUT==NULL)\n  {\n    printf(\" Write FILE Error\" );\n  }\n  for(c=1;c<=5;c++)\n  { \n    fscanf(IN,\" %d\" ,&t);\n    o=fun(t);\n    fprintf(OUT,\" %d\\n\" ,o);\n  }\n  fclose(IN);\n  fclose(OUT);\n}\n```",
+        "content": "```c\nint sum,i;\nsum =0;\nfor(i=2;i<=n;i=i+2)\n{\nsum=sum+i*i;}\nreturn(sum);\n```",
+        "tags": [
+            "累加",
+            "循环结构",
+            "条件"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10105",
+        "title": "一个C程序的执行是从（）。\nA:本程序的main函数开始,到main函数结束\nB:本程序文件的第一个函数开始,到本程序文件的最后一个函数结束\nC:本程序的main函数开始,到本程序文件的最后一个函数结束\nD:本程序文件的第一个函数开始,到本程序main函数结束\n",
+        "content": "A",
+        "tags": [
+            "程序",
+            "执行",
+            "主函数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10106",
+        "title": "设变量定义为\" int x, *p=&x;\" ,则&(*p)相当于\nA:p\nB:*p\nC:x\nD:*(&x)\n",
+        "content": "A",
+        "tags": [
+            "变量",
+            "定义",
+            "指针"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10107",
+        "title": "以下函数调用语句中实参的个数是（）。  \n\n```c\nfunc((e1,e2),(e3,e4,e5));\n```\n\nA:2\nB:3\nC:5\nD:语法错误\n",
+        "content": "A",
+        "tags": [
+            "函数",
+            "参数",
+            "实参"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10108",
+        "title": "若变量已正确定义并赋值，下面符合C语言语法的表达式是（）。\nA:a:=b+1\nB:a=b=c+2\nC:int 18.5%3\nD:a=a+7=c+b\n",
+        "content": "B",
+        "tags": [
+            "变量",
+            "赋值",
+            "语句"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10109",
+        "title": "```c\nchar a[10];\n```\n\n不能将字符串\" abc\" 存储在数组中的是（）。\nA:```c\nstrcpy(a,\" abc\" );\n```\nB:```c\na[0]=0;strcat(a,\" abc\" );\n```\nC:```c\na=\" abc\" ;\n```\nD:```c\nint i;for(i=0;i<3;i++)a[i]=i+97;a[i]=0;\n```\n",
+        "content": "C",
+        "tags": [
+            "字符串",
+            "字符数组",
+            "存储"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10110",
+        "title": "下列数据中，为字符串常量的是（）。\nA:A\nB:\" house\" \nC:How do you do.\nD:$abc\n",
+        "content": "B",
+        "tags": [
+            "字符串",
+            "常量"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10111",
+        "title": "在调用函数时，如果实参是简单变量，它与对应形参之间的数据传递方式是（）。\nA:地址传递\nB:单向值传递\nC:由实参传给形参，再由形参传回实参\nD:传递方式由用户指定\n",
+        "content": "B",
+        "tags": [
+            "函数",
+            "调用",
+            "参数",
+            "实参",
+            "传递"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10112",
+        "title": "在C语言中，if语句后的一对原括号中，用以决定分支的流程的表达式（）。\nA:只能用逻辑表达式\nB:只能用关系表达式\nC:只能用逻辑表达式或关系表达式\nD:可用任意表达式\n",
+        "content": "D",
+        "tags": [
+            "条件语句",
+            "表达式"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10113",
+        "title": "设有数组定义: char array [ ]=\"China\" ; 则数组 array所占的空间为（）。\nA:4个字节\nB:5个字节\nC:6个字节\nD:7个字节\n",
+        "content": "C",
+        "tags": [
+            "数组",
+            "存储",
+            "长度"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10114",
+        "title": "结构体类型的定义允许嵌套是指（）。\nA:成员是已经或正在定义的结构体型\nB:成员可以重名\nC:结构体型可以派生\nD:定义多个结构体型\n",
+        "content": "A",
+        "tags": [
+            "结构体类型",
+            "嵌套",
+            "成员",
+            "定义"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10115",
+        "title": "求平方根函数的函数名为（）。\nA:cos\nB:abs\nC:pow\nD:sqrt\n",
+        "content": "D",
+        "tags": [
+            "数值运算",
+            "函数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10116",
+        "title": "在C语言中，char型数据在内存中的存储形式是（）。\nA:补码\nB:反码\nC:原码\nD:ASCII码",
+        "content": "D",
+        "tags": [
+            "字符型",
+            "编码",
+            "存储"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "单选题"
+        },
+        "id": "10117",
+        "title": "设有说明语句:char a='\\72';则变量a（）。\nA:包含1个字符\nB:包含2个字符\nC:包含3个字符\nD:说明不合法\n",
+        "content": "A",
+        "tags": [
+            "字符",
+            "字符串"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10118",
+        "title": "```c\n/*------------------------------------------------------        \n【程序改错】\n--------------------------------------------------------\n功能：从键盘输入十个学生的成绩，统计最高分，最低分和平均分。\n      max代表最高分，min代表最低分，avg代表平均分。\n------------------------------------------------------*/\n#include <stdio.h>\nint main()\n{\n  int i;\n  /***********FOUND***********/\n  float a[8],min,max,avg;\n  printf(\" input 10 score:\" );\n  for(i=0;i<=9;i++)\n  {\n    printf(\" input a score of student:\" );\n    /***********FOUND***********/\n    scanf(\" %f\" ,a);\n  }\n  /***********FOUND***********/  max=min=avg=a[1];\n  for(i=1;i<=9;i++)\n  {\n    /***********FOUND***********/\n    if(min<a[i])\n      min=a[i];\n    if(max<a[i])\n      max=a[i];\n    avg=avg+a[i];\n  }\n  avg=avg/10;\n  printf(\" max:%f\\nmin:%f\\navg:%f\\n\" ,max,min,avg);\n  getchar();\n  return 0;\n}\n```",
+        "content": "```c\n=======(答案1)=======\nfloat a[10],min,max,avg;\n=======(答案2)=======\nscanf(\" %f\" ,&a[i]);\n=========或=========\nscanf(\" %f\" ,a+i);\n=======(答案3)=======\nmax=min=avg=a[0];\n=======(答案4)=======\nif (min>a[i])\n=========或=========\nif (a[i]<min)\n```",
+        "tags": [
+            "比较",
+            "数组",
+            "平均数",
+            "最值",
+            "运算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10119",
+        "title": "```c\n/*------------------------------------------------------    \n【程序改错】\n--------------------------------------------------------\n功能：输入一行字符，分别统计出其中英文字母、空格、数字和其它字符的个数。\n------------------------------------------------------*/\n#include <stdio.h>\nmain()\n{\n  char c;\n  int letters=0,space=0,digit=0,others=0;\n  printf(\" please input some characters\\n\" );\n  /**********FOUND**********/\n  while((c=getchar())=='\\n')\n  {\n    /**********FOUND**********/\n    if(c>='a'&&c<='z'&&c>='A'&&c<='Z')\n      letters++;\n    /**********FOUND**********/\n    else if(c=!' ')\n      space++;\n    else if(c>='0'&&c<='9')\n      digit++;\n    else\n      others++;\n  }\n  printf(\" all in all:char=%d space=%d digit=%d others=%d\\n\" ,letters,space,digit,others);\n}\n```",
+        "content": "```c\n=======(答案1)=======\nwhile((c=getchar())!='\\n')\n=======(答案2)=======\nif( c>='a'&&c<='z' || c>='A'&&c<='Z' )\n=========或=========\nif( c<='z'&&c>='a' || c>='A'&&c<='Z' )\n=========或=========\nif( c <= 'z' && c >= 'a' || c >= 'A' && c<='Z' )\n=======(答案3)=======\nelse if(c==' ')\n```",
+        "tags": [
+            "字符串",
+            "字符",
+            "个数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "改错题"
+        },
+        "id": "10120",
+        "title": "```c\n/*------------------------------------------------------        \n【程序改错】\n--------------------------------------------------------\n功能：在一个已按升序排列的数组中插入一个数，插入后，数组元素仍按升序排列。\n------------------------------------------------------*/\n#include <stdio.h>\n#define N 11\nmain()\n{\n  int i,number,a[N]={1,2,4,6,8,9,12,15,149,156};\n  printf(\" please enter an integer to insert in the array:\\n\" );\n  /**********FOUND**********/\n  scanf(\" %d\" ,&number)\n  printf(\" The original array:\\n\" );\n  for(i=0;i<N-1;i++)\n    printf(\" %5d\" ,a[i]);\n  printf(\" \\n\" );\n  /**********FOUND**********/\n  for(i=N-1;i>=0;i--)\n    if(number<=a[i])\n  /**********FOUND**********/\n    a[i]=a[i-1];\n  else\n  {\n    a[i+1]=number;\n    /**********FOUND**********/\n    exit;\n  }\n  if(number<a[0]) a[0]=number;\n    printf(\" The result array:\\n\" );\n  for(i=0;i<N;i++)\n     printf(\" %5d\" ,a[i]);\n  printf(\" \\n\" );\n}\n```",
+        "content": "```c\n=======(答案1)=======\nscanf(\" %d\" ,&number);\n=======(答案2)=======\nfor(i=N-2;i>=0;i--)\n=========或=========\nfor(i=N-2;0<=i;i--)\n=======(答案3)=======\na[ i + 1 ]=a[i];\n=======(答案4)=======\nbreak;\n```",
+        "tags": [
+            "升序",
+            "数组",
+            "排序"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "代码补全"
+        },
+        "id": "10121",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：计算平均成绩并统计90分以上人数。\n-------------------------------------------------------*/\n#include <stdio.h>\nmain()\n{\n  int n,m;\n  float grade,average;\n  average=0.0;\n  /***********SPACE***********/\n  n=m=【?】;\n  while(1)\n  {\n    /***********SPACE***********/\n   【?】(\" %f\" ,&grade);\n    if(grade<0) break;\n    n++;\n    average+=grade;\n    /***********SPACE***********/\n    if(grade<90)【?】;\n    m++;\n  }\n  if(n) printf(\" %.2f%d\\n\" ,average/n,m);\n}\n```",
+        "content": "```c\n=======(答案1)=======\n0\n=======(答案2)=======\nscanf\n=======(答案3)=======\ncontinue\n```",
+        "tags": [
+            "平均值",
+            "数值运算",
+            "计数"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "代码补全"
+        },
+        "id": "10122",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：输入3个数a,b,c，按从小到大的顺序输出。\n-------------------------------------------------------*/\n#include <stdio.h>\nmain()\n{\n  void swap(int *p1, int *p2);\n  int n1,n2,n3;\n  int *pointer1,*pointer2,*pointer3;\n  printf(\" please input 3 number:n1,n2,n3:\" );\n  scanf(\" %d,%d,%d\" ,&n1,&n2,&n3);\n  pointer1=&n1;\n  pointer2=&n2;\n  pointer3=&n3;\n  /***********SPACE***********/\n  if(【?】) swap(pointer1,pointer2);\n  /***********SPACE***********/\n  if(【?】) swap(pointer1,pointer3);  \n/***********SPACE***********/\n  if(【?】) swap(pointer2,pointer3);\n  printf(\" the sorted numbers are:%d,%d,%d\\n\" ,n1,n2,n3);\n}\n/***********SPACE***********/\nvoid swap(【?】)\nint *p1,*p2;\n{\n  int p;\n  p=*p1;*p1=*p2;*p2=p;\n}\n```",
+        "content": "```c\n=======(答案1)=======\nn1>n2\n=========或=========\nn2<n1\n=========或=========\n*pointer1>*pointer2\n=========或=========\n*pointer2<*pointer1\n=======(答案2)=======\nn1>n3\n=========或=========\nn3<n1\n=========或=========\n*pointer1>*pointer3\n=========或=========\n*pointer3<*pointer1\n=======(答案3)=======\nn2>n3\n=========或=========\nn3<n2\n=========或=========\n*pointer2>*pointer3\n=========或=========\n*pointer3<*pointer2\n=======(答案4)=======\np1,p2\n```",
+        "tags": [
+            "排序",
+            "输入",
+            "输出",
+            "指针"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "代码补全"
+        },
+        "id": "10123",
+        "title": "```c\n/*-------------------------------------------------------\n【程序填空】\n---------------------------------------------------------\n功能：用函数调用方式，实现字符串的复制。\n-------------------------------------------------------*/\n#include  <stdio.h>\nvoid string_copy(char *str_from, char *str_to)\n{\n  int i=0;\n  /***********SPACE***********/\n  for(; (*(【?】)=*(str_from+i))!='\\0'; i++) ;\n}\nmain()\n{\n  static char array_str1[20]=\" i am a teacher.\" ;\n  char array_str2[20];\n  /***********SPACE***********/\n  【?】(array_str1, array_str2);\n  /***********SPACE***********/\n  【?】(\" array_str2=%s\\n\" ,array_str2);\n}\n```",
+        "content": "```c\n=======(答案1)=======\nstr_to+i\n=========或=========\ni+str_to\n=======(答案2)=======\nstring_copy\n=======(答案3)=======\nprintf\n```",
+        "tags": [
+            "函数",
+            "调用",
+            "字符串",
+            "复制"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "编程题"
+        },
+        "id": "10124",
+        "title": "```c\n/*------------------------------------------------\n【程序设计】\n--------------------------------------------------\n功能：编写函数求表达式的和（n的值由主函数输入）。\n      1-1/2+1/3-1/4+......+1/m\n例如：当n=20时,表达式的值为0.668771。\n------------------------------------------------*/\n#include <stdio.h>\nvoid  wwjt(); \ndouble sum(int n)\n{\n  /**********Program**********/\n  \n  \n  \n  \n  \n  \n  /**********  End  **********/\n}\nmain()\n{\n  int n;\n  scanf(\" %d\" ,&n);\n  printf(\" sum=%f\\n\" ,sum(n));\n  wwjt();\n}\nvoid wwjt()\n{\n  FILE *IN,*OUT;\n  int n;\n  int i[10];\n  double o;\n  IN=fopen(\" in.dat\" ,\" r\" );\n  if(IN==NULL)\n  {\n    printf(\" Read FILE Error\" );\n  }\n  OUT=fopen(\" out.dat\" ,\" w\" );\n  if(OUT==NULL)\n  {\n    printf(\" Write FILE Error\" );\n  }\n  for(n=0;n<5;n++)\n    fscanf(IN,\" %d\" ,&i[n]);\n  for(n=0;n<5;n++)\n  {\n    o = sum(i[n]);\n    fprintf(OUT,\" %f\\n\" ,o);\n  }\n  fclose(IN);\n  fclose(OUT);\n}\n```",
+        "content": "```c\nfloat s=0;\n int i,k=1;\n for(i=1;i<=n;i++)\n   { s=s+k*1.0/i;\n     k=-k;\n     }\nreturn(s);\n```",
+        "tags": [
+            "函数",
+            "循环结构",
+            "表达式",
+            "数值计算"
+        ]
+    },
+    {
+        "part": {
+            "section": "相关题库",
+            "classification": "编程题"
+        },
+        "id": "10125",
+        "title": "```c\n/*------------------------------------------------\n【程序设计】\n--------------------------------------------------\n功能：把20个随机数存入一个数组，然后输出该数组中的最小值。其中确定最小值的下标的操作在fun函数中实现，请给出该函数的定义。\n------------------------------------------------*/\n#include <stdio.h>\n#define VSIZE 20     \nvoid  wwjt(); \n \nint vector[VSIZE] ;     \nint fun(int list[],int size)     \n{\n  /**********Program**********/\n  \n  \n  \n  \n  \n  \n  /**********  End  **********/     \n  \n} \nmain()     \n{     \n  int i;     \n  for (i=0;i<VSIZE;i++)\n  {\n    vector[i]=rand();     \n    printf(\" Vector[%d]=%6d\\n\" ,i,vector[i]);     \n  }     \n  i=fun(vector,VSIZE);     \n  printf(\" \\nMininum: Vector[%d]=%6d\\n\" ,i,vector[i]);\n  \n  wwjt();\n}     \nvoid wwjt()\n{\n  int i,t;\n  FILE *fp ;     \n  fp = fopen(\" out.dat\" , \" w\" ) ;\n  for (i=0;i<VSIZE;i++)\n  {\n    fprintf(fp,\" Vector[%d]=%6d\\n\" ,i,vector[i]);\n  }     \n  t=fun(vector,VSIZE);\n  fprintf(fp,\" \\nMininum: Vector[%d]=%6d\\n\" ,t,vector[t]);\n  fclose(fp) ;\n}\n```",
+        "content": "```c\nint i,min=0;     \nfor(i=1; i <size; i++)\nif(list[min]>list[i])     \nmin=i;     \nreturn min;\n```",
+        "tags": [
+            "函数",
+            "数组",
+            "最小值",
+            "比较"
+        ]
+    }
+]
