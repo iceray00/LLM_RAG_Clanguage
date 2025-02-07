@@ -7,7 +7,7 @@ import json
 
 from haystack.components.builders import PromptBuilder
 from haystack.components.retrievers import InMemoryBM25Retriever
-from haystack_integrations.components.generators.ollama import OllamaGenerator
+from haystack_integrations.components.generators.ollama import OllamaGenerator, OllamaChatGenerator
 from tqdm import tqdm
 from pathlib import Path
 from haystack import Pipeline
@@ -117,6 +117,13 @@ def test_RAG(question):
                                     "num_ctx": 4096
                                 })
 
+    # generator = OllamaChatGenerator(model=args.Gmodel,
+    #                             url="http://localhost:11434/",
+    #                             generation_kwargs={
+    #                                 # "num_predict": 60,
+    #                                 "temperature": 0.8,
+    #                                 "num_ctx": 4096
+    #                             })
     # # 不显示进度条
     # document_store.write_documents(documents)  # 将这些文档写入到 ChromaDocumentStore
 

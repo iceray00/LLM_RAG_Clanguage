@@ -3,7 +3,7 @@
 
 
 ```bash
-sh ./initisl_rag.sh
+sh initisl_rag.sh
 ```
 
 
