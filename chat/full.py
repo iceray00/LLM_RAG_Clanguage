@@ -73,7 +73,6 @@ def main():
 
     retriever = ChromaQueryTextRetriever(document_store=document_store)
 
-    # 生成 Haystack 文档的部分保持不变
     documents = []
     for item in knowledge_data:
         doc = Document(
@@ -145,7 +144,7 @@ def main():
         try:
             print(f"\n## Round {i} ##")
             i += 1
-            question = input("\n❓ 你的问题: ")
+            question = input("\n❓ 你的问题: \n")
             if question.lower() in ["exit", "quit"]:
                 print("退出对话。")
                 break
