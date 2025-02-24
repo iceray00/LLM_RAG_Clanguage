@@ -95,7 +95,8 @@ def main():
     prompt_builder = ChatPromptBuilder()
     generator = OllamaChatGenerator(
         model="qwen2:latest",
-        url="http://localhost:11434",
+        # url="http://localhost:11434/api/chat",
+        url="http://localhost:11434/",
         generation_kwargs={
             "temperature": 0.9,
         }
