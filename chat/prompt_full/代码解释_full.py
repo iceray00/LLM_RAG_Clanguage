@@ -47,7 +47,7 @@ def main():
     #     print("Error: Invalid mode. '-m' '--mode' Should input `test` or `knowledge`.")
     #     exit(1)
 
-    # Embedding Model
+    # Embedding Model.
     if args.Emodel == "default":
         document_store = ChromaDocumentStore()
         print("Now, Embedding Model is: all-MiniLM-L6-v2")
