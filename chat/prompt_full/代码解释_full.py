@@ -27,13 +27,6 @@ def main():
     parser.add_argument("-e", "--Emodel", type=str, default="nomic-embed-text:latest", help="Embedding Model")
     parser.add_argument("-g", "--Gmodel", type=str, default="qwen2:latest", help="Generator Model")
 
-    # parser.add_argument("--input_file", type=str, help="input one file path for Contract source code")
-    # parser.add_argument("--o", "-output", type=str, default="./vfcs/", help="output path for VFCS")
-    # parser.add_argument("--model_name", type=str, default="Qwen1.5-32B-Q4", help="model name")
-    # parser.add_argument("--ctx", type=int, default=default_ctx, help="The maximum length of the context")
-    # parser.add_argument("--prompt5", type=str, default=None, help="Prompt5")
-    # parser.add_argument("--prompt6", type=str, default=None, help="Prompt6")
-
     args = parser.parse_args()
     #
     # if args.mode == "knowledge":
@@ -171,6 +164,8 @@ def main():
 
         return response_text, conversation_history
 
+
+
     # 交互式对话循环
     print("\n🟢 对话RAG已就绪（输入'exit'退出）")
     i = 1
@@ -178,7 +173,6 @@ def main():
     while True:
         try:
             print(f"\n## Round {i} ##")
-            i += 1
             question = input("\n❓ 你的问题: \n")
             if question.lower() in ["exit", "quit"]:
                 print("退出对话。")
@@ -217,6 +211,8 @@ def main():
 
             # 输出回答
             print(f"\n🤖 助手回答:\n{answer}")
+
+            i += 1
 
         except KeyboardInterrupt:
             print("\n对话中断。")
