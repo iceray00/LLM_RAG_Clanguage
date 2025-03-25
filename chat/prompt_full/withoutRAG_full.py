@@ -24,7 +24,6 @@ chat_records = []
 def main():
     parser = argparse.ArgumentParser(description="RAG Chat Bot for C Language Learning!")
 
-    parser.add_argument("-e", "--Emodel", type=str, default="nomic-embed-text:latest", help="Embedding Model")
     parser.add_argument("-g", "--Gmodel", type=str, default="qwen2:latest", help="Generator Model")
 
     args = parser.parse_args()
@@ -47,21 +46,6 @@ def main():
     #     print("Error: Invalid mode. '-m' '--mode' Should input `test` or `knowledge`.")
     #     exit(1)
 
-    # Embedding Model.
-    if args.Emodel == "default":
-        document_store = ChromaDocumentStore()
-        print("Now, Embedding Model is: all-MiniLM-L6-v2")
-    else:
-        # 使用自定义嵌入函数创建 ChromaDocumentStore
-        document_store = ChromaDocumentStore(
-            embedding_function="OllamaEmbeddingFunction",
-            url="http://localhost:11434/api/embeddings",
-            model_name=args.Emodel
-        )
-        print(f"### Embedding Model is: {args.Emodel} ###")
-
-    print(f"### Generator Model is: {args.Gmodel} ###")
-
     # retriever = ChromaQueryTextRetriever(document_store=document_store)
 
     # documents = []
@@ -82,7 +66,7 @@ def main():
     # for doc in tqdm(documents, desc="Indexing documents", unit="document"):
     #     document_store.write_documents([doc])
 
-    # 创建 ChatPromptBuilder 和 OllamaChatGenerator的部分保持不变
+    # 创建 ChatPromptBuilder 和 OllamaChatGenerator
     prompt_builder = ChatPromptBuilder()
     generator = OllamaChatGenerator(
         model="qwen2:latest",
@@ -130,6 +114,7 @@ def main():
         # 获取回答并更新历史对话
         response = querying["llm"]["replies"]
         response_text = response[0].text
+        conversation_history.append(ChatMessage.from_user(template))
         conversation_history.append(ChatMessage.from_assistant(response_text))
 
         return response_text, conversation_history
@@ -160,6 +145,7 @@ def main():
         # 获取回答并更新历史对话
         response = querying["llm"]["replies"]
         response_text = response[0].text
+        conversation_history.append(ChatMessage.from_user(template))
         conversation_history.append(ChatMessage.from_assistant(response_text))
 
         return response_text, conversation_history
@@ -167,7 +153,7 @@ def main():
 
 
     # 交互式对话循环
-    print("\n🟢 对话RAG已就绪（输入'exit'退出）")
+    print("\n🟢 超级 C 语言助教已就绪（输入'exit'退出）")
     i = 1
 
     while True:
